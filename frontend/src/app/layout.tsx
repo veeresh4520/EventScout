@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "@/contexts/AuthContext";
 import NavBar from "@/components/NavBar";
+import Toast from "@/components/Toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
       >
         <AuthProvider>
           <NavBar />
+          <Toast />
 
           {/* Page Content */}
           <main className="flex-grow">{children}</main>

@@ -118,6 +118,24 @@ export default function NotificationBell() {
     }
   };
 
+  // Handle clicking anywhere on notification card: marks read & navigates to event
+  const handleNotificationClick = (notif: NotificationItem) => {
+    handleMarkAsRead(notif.id);
+    setIsOpen(false);
+
+    const targetUrl =
+      notif.event_url ||
+      (notif.event_id ? `/?q=${encodeURIComponent(notif.title)}` : undefined);
+
+    if (targetUrl) {
+      if (targetUrl.startsWith("http://") || targetUrl.startsWith("https://")) {
+        window.open(targetUrl, "_blank", "noopener,noreferrer");
+      } else {
+        window.location.href = targetUrl;
+      }
+    }
+  };
+
   // Mark all as read
   const handleMarkAllRead = async () => {
     if (!token) return;
@@ -180,7 +198,7 @@ export default function NotificationBell() {
       {isOpen && (
         <div
           id="notification-dropdown"
-          className="absolute right-0 mt-2 w-80 sm:w-96 bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 py-3 z-50 overflow-hidden"
+          className="absolute right-0 mt-2 w-80 sm:w-96 bg-white dark:bg-gray-800 rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 py-3 z-50 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-150"
         >
           {/* Header */}
           <div className="flex items-center justify-between px-4 pb-3 border-b border-gray-100 dark:border-gray-700">
@@ -208,7 +226,7 @@ export default function NotificationBell() {
           </div>
 
           {/* List */}
-          <div className="max-h-[380px] overflow-y-auto divide-y divide-gray-100 dark:divide-gray-700/50">
+          <div className="max-h-[390px] overflow-y-auto divide-y divide-gray-100 dark:divide-gray-700/50">
             {notifications.length === 0 ? (
               <div className="py-10 text-center px-4">
                 <div className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center text-gray-400 mx-auto mb-2">
@@ -222,59 +240,72 @@ export default function NotificationBell() {
                 </p>
               </div>
             ) : (
-              notifications.map((notif) => (
-                <div
-                  key={notif.id}
-                  className={`p-3.5 transition-colors flex items-start gap-3 hover:bg-gray-50 dark:hover:bg-gray-700/40 cursor-pointer ${
-                    !notif.read ? "bg-indigo-50/50 dark:bg-indigo-950/20" : ""
-                  }`}
-                  onClick={() => handleMarkAsRead(notif.id)}
-                >
-                  {/* Status Indicator Dot */}
-                  <div className="mt-1">
-                    <span
-                      className={`block w-2 h-2 rounded-full ${
-                        !notif.read ? "bg-indigo-600" : "bg-transparent"
-                      }`}
-                    />
-                  </div>
-
-                  {/* Content */}
-                  <div className="flex-grow min-w-0">
-                    <p
-                      className={`text-sm leading-snug line-clamp-2 ${
-                        !notif.read
-                          ? "font-semibold text-gray-900 dark:text-white"
-                          : "font-normal text-gray-700 dark:text-gray-300"
-                      }`}
-                    >
-                      {notif.title}
-                    </p>
-                    <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 line-clamp-2">
-                      {notif.message}
-                    </p>
-                    <div className="flex items-center justify-between mt-2 pt-1">
-                      <span className="text-[11px] text-gray-400">
-                        {new Date(notif.created_at).toLocaleTimeString([], {
-                          hour: "2-digit",
-                          minute: "2-digit",
-                        })}
-                      </span>
-                      {notif.event_url && (
-                        <a
-                          href={notif.event_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={(e) => e.stopPropagation()}
-                          className="text-[11px] font-semibold text-indigo-600 dark:text-indigo-400 hover:underline"
-                        >
-                          View Event →
-                        </a>
+              notifications.map((notif) => {
+                const hasUrl = Boolean(notif.event_url || notif.event_id);
+                return (
+                  <div
+                    key={notif.id}
+                    onClick={() => handleNotificationClick(notif)}
+                    className={`group relative p-3.5 transition-all flex items-start gap-3 cursor-pointer hover:bg-indigo-50/70 dark:hover:bg-indigo-950/40 border-l-[3px] ${
+                      !notif.read
+                        ? "bg-indigo-50/40 dark:bg-indigo-950/20 border-indigo-600"
+                        : "border-transparent hover:border-indigo-400"
+                    }`}
+                    title={hasUrl ? "Click to view event opportunity" : "Click to view"}
+                  >
+                    {/* Status Indicator Icon / Dot */}
+                    <div className="mt-1 flex-shrink-0">
+                      {!notif.read ? (
+                        <span className="w-2.5 h-2.5 rounded-full bg-indigo-600 block shadow-sm animate-pulse" />
+                      ) : (
+                        <span className="w-2 h-2 rounded-full bg-gray-300 dark:bg-gray-600 block opacity-40" />
                       )}
                     </div>
+
+                    {/* Content */}
+                    <div className="flex-grow min-w-0">
+                      <div className="flex items-center justify-between gap-2 mb-1">
+                        <span className="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-900/60 text-indigo-700 dark:text-indigo-300">
+                          {notif.type === "recommendation"
+                            ? "🔥 Top Match"
+                            : notif.type === "welcome"
+                            ? "🚀 Update"
+                            : "⚡ Event"}
+                        </span>
+                        <span className="text-[11px] text-gray-400">
+                          {new Date(notif.created_at).toLocaleTimeString([], {
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </span>
+                      </div>
+
+                      <p
+                        className={`text-sm leading-snug line-clamp-2 transition-colors ${
+                          !notif.read
+                            ? "font-bold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400"
+                            : "font-medium text-gray-700 dark:text-gray-300 group-hover:text-indigo-600 dark:group-hover:text-indigo-400"
+                        }`}
+                      >
+                        {notif.title}
+                      </p>
+                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-1 line-clamp-2 leading-relaxed">
+                        {notif.message}
+                      </p>
+
+                      <div className="flex items-center justify-between mt-2.5 pt-1.5 border-t border-gray-100 dark:border-gray-700/50">
+                        <span className="text-[11px] font-semibold text-indigo-600 dark:text-indigo-400 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform">
+                          <span>Open Opportunity</span>
+                          <span>↗</span>
+                        </span>
+                        <span className="text-[10px] text-gray-400 dark:text-gray-500">
+                          {!notif.read ? "Unread" : "Viewed"}
+                        </span>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              ))
+                );
+              })
             )}
           </div>
         </div>

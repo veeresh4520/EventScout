@@ -62,8 +62,73 @@ class PreferencesUpdate(BaseModel):
     notification_preferences: Optional[NotificationPreferencesModel] = None
 
 
+class ProfileUpdate(BaseModel):
+    username: Optional[str] = None
+
+
+@router.get("/profile", summary="Get current user's profile details")
+async def get_profile(
+    current_user: Dict[str, Any] = Depends(get_current_user),
+) -> Dict[str, Any]:
+    """
+    Returns full profile details for the authenticated user.
+    """
+    db = UserDatabase()
+    user_doc = db.find_by_id(current_user["id"])
+    if not user_doc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found.")
+
+    return {
+        "id": str(user_doc.get("_id")),
+        "username": user_doc.get("username", ""),
+        "email": user_doc.get("email", ""),
+        "is_admin": user_doc.get("is_admin", False),
+        "saved_event_ids": user_doc.get("saved_event_ids", []),
+        "saved_count": len(user_doc.get("saved_event_ids", [])),
+        "interests": user_doc.get("interests", []),
+        "skills": user_doc.get("skills", []),
+        "preferred_event_types": user_doc.get("preferred_event_types", []),
+        "preferred_modes": user_doc.get("preferred_modes", []),
+        "notification_preferences": user_doc.get("notification_preferences", {
+            "dashboard_enabled": True,
+            "browser_enabled": True,
+            "email_enabled": True,
+        }),
+        "created_at": user_doc.get("created_at"),
+    }
+
+
+@router.put("/profile", summary="Update current user's profile details")
+async def update_profile(
+    body: ProfileUpdate,
+    current_user: Dict[str, Any] = Depends(get_current_user),
+) -> Dict[str, Any]:
+    """
+    Updates the authenticated user's profile details (e.g. username).
+    """
+    db = UserDatabase()
+    update_data = body.model_dump(exclude_none=True)
+    if not update_data:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="No profile fields provided to update.")
+
+    try:
+        db.update_profile(current_user["id"], update_data)
+    except ValueError as ve:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(ve))
+
+    user_doc = db.find_by_id(current_user["id"])
+    return {
+        "id": str(user_doc.get("_id")),
+        "username": user_doc.get("username", ""),
+        "email": user_doc.get("email", ""),
+        "is_admin": user_doc.get("is_admin", False),
+        "saved_event_ids": user_doc.get("saved_event_ids", []),
+        "message": "Profile updated successfully.",
+    }
+
+
 # ------------------------------------------------------------------
-# Endpoints
+# Preferences Endpoints
 # ------------------------------------------------------------------
 
 

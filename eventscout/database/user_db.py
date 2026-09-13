@@ -210,6 +210,34 @@ class UserDatabase:
         result = col.update_one({"_id": obj_id}, {"$set": update_doc})
         return result.modified_count > 0 or result.matched_count > 0
 
+    def update_profile(self, user_id: str, profile_data: Dict[str, Any]) -> bool:
+        """
+        Updates user profile attributes such as username.
+        Prevents duplicate usernames across accounts.
+        """
+        col = self.get_collection()
+        try:
+            obj_id = ObjectId(user_id)
+        except Exception:
+            return False
+
+        allowed_fields = {"username"}
+        update_doc = {k: v for k, v in profile_data.items() if k in allowed_fields}
+        if not update_doc:
+            return False
+
+        if "username" in update_doc:
+            new_username = str(update_doc["username"]).strip()
+            if not new_username:
+                raise ValueError("Username cannot be empty.")
+            existing = col.find_one({"username": new_username, "_id": {"$ne": obj_id}})
+            if existing:
+                raise ValueError(f"Username '{new_username}' is already taken.")
+            update_doc["username"] = new_username
+
+        result = col.update_one({"_id": obj_id}, {"$set": update_doc})
+        return result.modified_count > 0 or result.matched_count > 0
+
     # ------------------------------------------------------------------
     # Save / Unsave events (user-specific relationship)
     # ------------------------------------------------------------------

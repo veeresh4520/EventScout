@@ -148,9 +148,17 @@ class NotificationDatabase:
         cursor = col.find({"user_id": str(user_id)}).sort("created_at", DESCENDING).limit(limit)
 
         notifications = []
+        events_col = self.get_client()[self.db_name]["events"]
         for doc in cursor:
             doc["id"] = str(doc["_id"])
             doc["_id"] = str(doc["_id"])
+            if not doc.get("event_url") and doc.get("event_id"):
+                try:
+                    ev = events_col.find_one({"_id": ObjectId(doc["event_id"])})
+                    if ev and (ev.get("event_url") or ev.get("registration_url")):
+                        doc["event_url"] = ev.get("event_url") or ev.get("registration_url")
+                except Exception:
+                    pass
             notifications.append(doc)
         return notifications
 

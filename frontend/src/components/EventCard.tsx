@@ -51,7 +51,15 @@ export default function EventCard({ event, isSaved, onToggleSave }: EventCardPro
     setSaving(true);
     setSaveError(null);
     try {
+      const willBeSaved = !isSaved;
       await onToggleSave(event.id, !!isSaved);
+      if (typeof window !== "undefined") {
+        window.dispatchEvent(
+          new CustomEvent("eventscout-toast", {
+            detail: { message: willBeSaved ? "Saved" : "Removed" },
+          })
+        );
+      }
     } catch {
       setSaveError("Failed to update. Try again.");
       setTimeout(() => setSaveError(null), 3000);

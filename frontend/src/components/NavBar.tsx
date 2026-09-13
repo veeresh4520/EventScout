@@ -88,12 +88,17 @@ export default function NavBar() {
 
               {/* User menu / Profile area */}
               <div className="flex items-center gap-2.5 ml-1">
-                <div
+                <Link
                   id="user-profile-badge"
-                  className="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 py-1 px-2.5 rounded-full border border-gray-200 dark:border-gray-700"
-                  title={user?.email}
+                  href="/profile"
+                  className={`flex items-center gap-2 py-1 px-2.5 rounded-full border transition-all hover:ring-2 hover:ring-indigo-500/50 cursor-pointer ${
+                    pathname === "/profile"
+                      ? "bg-indigo-50 dark:bg-indigo-950/60 border-indigo-300 dark:border-indigo-700 ring-2 ring-indigo-500/40"
+                      : "bg-gray-100 dark:bg-gray-800 border-gray-200 dark:border-gray-700 hover:bg-gray-200/80 dark:hover:bg-gray-700/80"
+                  }`}
+                  title="View & manage your profile, saved events, and preferences"
                 >
-                  <div className="w-6 h-6 rounded-full bg-indigo-600 text-white font-bold text-xs flex items-center justify-center uppercase">
+                  <div className="w-6 h-6 rounded-full bg-indigo-600 text-white font-bold text-xs flex items-center justify-center uppercase shadow-sm">
                     {(user?.username || user?.email || "U").slice(0, 2)}
                   </div>
                   <span className="text-sm font-medium text-gray-800 dark:text-gray-200 max-w-[120px] truncate">
@@ -104,7 +109,7 @@ export default function NavBar() {
                       Admin
                     </span>
                   )}
-                </div>
+                </Link>
                 <button
                   id="logout-button"
                   onClick={handleLogout}
@@ -160,13 +165,18 @@ export default function NavBar() {
       {isMobileMenuOpen && (
         <div className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white/95 dark:bg-gray-900/95 backdrop-blur-lg px-4 py-4 space-y-3 shadow-xl animate-in slide-in-from-top duration-200">
           {isAuthenticated && (
-            <div className="p-3 bg-gray-50 dark:bg-gray-800/70 rounded-xl border border-gray-200 dark:border-gray-700 flex items-center justify-between">
+            <Link
+              href="/profile"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="p-3 bg-gray-50 dark:bg-gray-800/70 rounded-xl border border-gray-200 dark:border-gray-700 flex items-center justify-between hover:border-indigo-500 transition-all cursor-pointer group"
+              title="View & manage your profile"
+            >
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 rounded-full bg-indigo-600 text-white font-bold text-sm flex items-center justify-center uppercase shadow-sm">
                   {(user?.username || user?.email || "U").slice(0, 2)}
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-sm font-semibold text-gray-900 dark:text-white">
+                  <span className="text-sm font-semibold text-gray-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400">
                     {user?.username || user?.email?.split("@")[0]}
                   </span>
                   <span className="text-xs text-gray-500 dark:text-gray-400 truncate max-w-[200px]">
@@ -174,12 +184,15 @@ export default function NavBar() {
                   </span>
                 </div>
               </div>
-              {user?.is_admin && (
-                <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-500/30">
-                  Admin
-                </span>
-              )}
-            </div>
+              <div className="flex items-center gap-2">
+                {user?.is_admin && (
+                  <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-amber-500/20 text-amber-700 dark:text-amber-300 border border-amber-500/30">
+                    Admin
+                  </span>
+                )}
+                <span className="text-gray-400 text-xs">Edit →</span>
+              </div>
+            </Link>
           )}
 
           <div className="flex flex-col space-y-1">
@@ -199,16 +212,16 @@ export default function NavBar() {
             {isAuthenticated ? (
               <>
                 <Link
-                  href="/preferences"
+                  href="/profile"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className={`px-3 py-2.5 rounded-lg text-sm font-medium flex items-center gap-2 ${
-                    pathname === "/preferences"
+                    pathname === "/profile"
                       ? "bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 font-bold"
                       : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
                   }`}
                 >
-                  <span>⚙️</span>
-                  <span>My Preferences & Saved</span>
+                  <span>👤</span>
+                  <span>My Profile, Saved & Preferences</span>
                 </Link>
 
                 <button
