@@ -114,6 +114,20 @@ class EventNormalizer:
             return None
         title = re.sub(r"\s+", " ", title).strip()
 
+        # If title is a raw URL, convert the slug into a human-readable title
+        if title.startswith("http://") or title.startswith("https://"):
+            path = title.split("?")[0].rstrip("/")
+            slug = path.split("/")[-1]
+            slug = re.sub(r"^google-gdg-", "GDG ", slug, flags=re.I)
+            slug = re.sub(r"-presents-", ": ", slug, flags=re.I)
+            slug = slug.replace("-", " ").strip()
+            title = " ".join([w.capitalize() if not w.isupper() else w for w in slug.split()]) or title
+
+        # Strip common redundant suffixes
+        title = re.sub(r"\s*\|\s*Google Developer Groups.*$", "", title, flags=re.I).strip()
+        title = re.sub(r"\s*\|\s*HackerEarth.*$", "", title, flags=re.I).strip()
+        title = re.sub(r"\s*-\s*Devfolio.*$", "", title, flags=re.I).strip()
+
         # 2. Event URL (Mandatory)
         event_url = raw_item.get("event_url") or raw_item.get("url") or source_meta.get("url") or ""
         if not event_url:
