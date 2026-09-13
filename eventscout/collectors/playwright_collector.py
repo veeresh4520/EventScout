@@ -167,9 +167,15 @@ class PlaywrightCollector(BaseCollector):
                                                 break
 
                                 elif field_name in ("poster_image_url", "image"):
-                                    img_el = card.query_selector("img[src]")
-                                    if img_el and img_el.get_attribute("src"):
-                                        val = urljoin(page.url, img_el.get_attribute("src"))
+                                    all_imgs = card.query_selector_all("img[src]")
+                                    for img_el in all_imgs:
+                                        src = img_el.get_attribute("src") or ""
+                                        src_lower = src.lower()
+                                        # Skip avatars, profile photos, attendee icons
+                                        if any(k in src_lower for k in ("avatar", "/users/", "/user/", "profile", "attendee", "gravatar", "author", "icon")):
+                                            continue
+                                        val = urljoin(page.url, src)
+                                        break
 
                                 elif field_name in ("date_time", "date"):
                                     d_candidates = card.query_selector_all("time, [class*='date'], [class*='deadline'], [class*='time'], p, span")

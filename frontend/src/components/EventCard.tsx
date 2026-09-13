@@ -17,8 +17,26 @@ export default function EventCard({ event, isSaved, onToggleSave }: EventCardPro
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
   const [showWhyRecommended, setShowWhyRecommended] = useState(false);
+  const [imageFailed, setImageFailed] = useState(false);
 
   const classification = getEventClassification(event);
+
+  // Helper to detect if a scraped URL is a person's avatar/profile rather than an event poster
+  const isAvatar = (url?: string | null) => {
+    if (!url) return false;
+    const lower = url.toLowerCase();
+    return (
+      lower.includes("avatar") ||
+      lower.includes("/users/") ||
+      lower.includes("/user/") ||
+      lower.includes("profile") ||
+      lower.includes("attendee") ||
+      lower.includes("gravatar") ||
+      lower.includes("author")
+    );
+  };
+
+  const hasValidImage = Boolean(event.poster_image_url && !isAvatar(event.poster_image_url));
 
   const formattedDate = new Date(event.date_time).toLocaleDateString("en-US", {
     weekday: "short",
@@ -49,21 +67,32 @@ export default function EventCard({ event, isSaved, onToggleSave }: EventCardPro
   return (
     <div className="flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-gray-200 dark:border-gray-700 relative group">
       {/* Event Image & Badges */}
-      <div className="relative h-48 w-full bg-gray-200 dark:bg-gray-700">
-        {event.poster_image_url ? (
+      <div className="relative h-48 w-full bg-slate-900 overflow-hidden">
+        {hasValidImage && !imageFailed ? (
           <Image
-            src={event.poster_image_url}
+            src={event.poster_image_url!}
             alt={event.title}
             fill
             unoptimized
-            className="object-cover"
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            onError={() => setImageFailed(true)}
           />
         ) : (
-          <div className="flex items-center justify-center h-full text-gray-400 dark:text-gray-500">
-            <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-            </svg>
+          <div className="relative flex flex-col items-center justify-center h-full w-full bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-6 text-center select-none">
+            {/* Subtle decorative glow effect */}
+            <div className="absolute -top-12 -right-12 w-32 h-32 bg-indigo-500/20 rounded-full blur-2xl pointer-events-none" />
+            <div className="absolute -bottom-12 -left-12 w-32 h-32 bg-purple-500/20 rounded-full blur-2xl pointer-events-none" />
+            <div className="absolute inset-0 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px] opacity-15 pointer-events-none" />
+
+            <div className="relative z-10 flex flex-col items-center justify-center max-w-[85%]">
+              <span className="text-[10px] uppercase font-extrabold tracking-widest text-indigo-400 mb-2 px-2 py-0.5 rounded-full bg-indigo-950/60 border border-indigo-800/50">
+                {event.source ? `${event.source} • Opportunity` : "Tech Opportunity"}
+              </span>
+              <h4 className="text-base sm:text-lg font-black text-white line-clamp-3 leading-snug drop-shadow-md">
+                {event.title}
+              </h4>
+            </div>
           </div>
         )}
 

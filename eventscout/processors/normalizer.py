@@ -165,6 +165,13 @@ class EventNormalizer:
 
         registration_url = raw_item.get("registration_url") or event_url
         poster_image_url = raw_item.get("poster_image_url") or raw_item.get("image")
+        
+        # Discard profile avatars, user photos, and attendee portraits from being treated as event posters
+        if poster_image_url:
+            img_lower = str(poster_image_url).lower()
+            if any(k in img_lower for k in ("avatar", "/users/", "/user/", "profile", "attendee", "gravatar", "author")):
+                poster_image_url = None
+
         description = raw_item.get("description")
         if description:
             description = str(description).strip()
