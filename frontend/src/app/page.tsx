@@ -263,21 +263,21 @@ export default function DiscoverPage() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
       {/* Hero Header */}
-      <div className="mb-10">
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-4">
+      <div className="mb-6 sm:mb-10">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-3 sm:gap-4 mb-3 sm:mb-4">
           <div>
-            <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-3">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 dark:text-white tracking-tight mb-2 sm:mb-3">
               Discover what's happening in tech.
             </h1>
-            <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
+            <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 max-w-2xl">
               Intelligently ranked technical hackathons, workshops, and conferences from premier tech leaders and institutes.
             </p>
           </div>
 
           {!loading && !error && (
-            <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 font-semibold text-sm border border-indigo-200 dark:border-indigo-800 self-start md:self-auto shadow-sm">
+            <div className="flex items-center gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300 font-semibold text-xs sm:text-sm border border-indigo-200 dark:border-indigo-800 self-start md:self-auto shadow-sm">
               <span className="relative flex h-2.5 w-2.5">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-indigo-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-indigo-500"></span>
@@ -290,13 +290,13 @@ export default function DiscoverPage() {
 
       {/* Primary Section Tabs */}
       <div className="mb-6 border-b border-gray-200 dark:border-gray-800">
-        <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto pb-px">
+        <div className="flex items-center gap-1.5 sm:gap-3 overflow-x-auto pb-px no-scrollbar">
           {/* Tab 1: All Events */}
           <button
             id="tab-all-events"
             type="button"
             onClick={() => setActiveSection("all")}
-            className={`flex items-center gap-2 px-5 py-3 text-sm sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
+            className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
               activeSection === "all"
                 ? "text-indigo-600 dark:text-indigo-400 border-indigo-600 dark:border-indigo-400 bg-indigo-50/60 dark:bg-indigo-950/30"
                 : "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white border-transparent hover:border-gray-300 dark:hover:border-gray-700"
@@ -305,7 +305,7 @@ export default function DiscoverPage() {
             <span>✨</span>
             <span>All Events</span>
             <span
-              className={`px-2 py-0.5 text-xs rounded-full font-semibold transition-colors ${
+              className={`px-1.5 sm:px-2 py-0.5 text-[11px] sm:text-xs rounded-full font-semibold transition-colors ${
                 activeSection === "all"
                   ? "bg-indigo-600 text-white"
                   : "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
@@ -320,7 +320,7 @@ export default function DiscoverPage() {
             id="tab-hackathons"
             type="button"
             onClick={() => setActiveSection("hackathons")}
-            className={`flex items-center gap-2 px-5 py-3 text-sm sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
+            className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
               activeSection === "hackathons"
                 ? "text-indigo-600 dark:text-indigo-400 border-indigo-600 dark:border-indigo-400 bg-indigo-50/60 dark:bg-indigo-950/30"
                 : "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white border-transparent hover:border-gray-300 dark:hover:border-gray-700"
@@ -329,7 +329,7 @@ export default function DiscoverPage() {
             <span>⚡</span>
             <span>Hackathons</span>
             <span
-              className={`px-2 py-0.5 text-xs rounded-full font-semibold transition-colors ${
+              className={`px-1.5 sm:px-2 py-0.5 text-[11px] sm:text-xs rounded-full font-semibold transition-colors ${
                 activeSection === "hackathons"
                   ? "bg-amber-600 text-white"
                   : "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
@@ -344,7 +344,7 @@ export default function DiscoverPage() {
             id="tab-workshops"
             type="button"
             onClick={() => setActiveSection("workshops")}
-            className={`flex items-center gap-2 px-5 py-3 text-sm sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
+            className={`flex items-center gap-1.5 sm:gap-2 px-3.5 sm:px-5 py-2.5 sm:py-3 text-xs sm:text-base font-bold rounded-t-xl transition-all border-b-2 whitespace-nowrap ${
               activeSection === "workshops"
                 ? "text-indigo-600 dark:text-indigo-400 border-indigo-600 dark:border-indigo-400 bg-indigo-50/60 dark:bg-indigo-950/30"
                 : "text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white border-transparent hover:border-gray-300 dark:hover:border-gray-700"
@@ -353,7 +353,7 @@ export default function DiscoverPage() {
             <span>🛠️</span>
             <span>Workshops</span>
             <span
-              className={`px-2 py-0.5 text-xs rounded-full font-semibold transition-colors ${
+              className={`px-1.5 sm:px-2 py-0.5 text-[11px] sm:text-xs rounded-full font-semibold transition-colors ${
                 activeSection === "workshops"
                   ? "bg-emerald-600 text-white"
                   : "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300"
@@ -366,10 +366,10 @@ export default function DiscoverPage() {
       </div>
 
       {/* Advanced Search & Filter Bar */}
-      <div className="bg-white dark:bg-gray-800/80 backdrop-blur-md rounded-2xl p-4 sm:p-5 border border-gray-200 dark:border-gray-700 shadow-sm mb-10">
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-3 mb-3">
+      <div className="bg-white dark:bg-gray-800/80 backdrop-blur-md rounded-2xl p-3.5 sm:p-5 border border-gray-200 dark:border-gray-700 shadow-sm mb-8 sm:mb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-2.5 sm:gap-3 mb-3">
           {/* Search Input */}
-          <div className="md:col-span-6 relative">
+          <div className="sm:col-span-2 md:col-span-6 relative">
             <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-400">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -394,7 +394,7 @@ export default function DiscoverPage() {
           </div>
 
           {/* Sort By Dropdown */}
-          <div className="md:col-span-3">
+          <div className="sm:col-span-1 md:col-span-3">
             <select
               id="sort-select"
               value={sortBy}
@@ -409,7 +409,7 @@ export default function DiscoverPage() {
           </div>
 
           {/* Mode Dropdown */}
-          <div className="md:col-span-3">
+          <div className="sm:col-span-1 md:col-span-3">
             <select
               id="mode-select"
               value={selectedMode}
@@ -424,7 +424,7 @@ export default function DiscoverPage() {
         </div>
 
         {/* Secondary Filter Row: Price, Source, Category & Reset */}
-        <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-gray-100 dark:border-gray-700/60">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pt-3 border-t border-gray-100 dark:border-gray-700/60">
           <div className="flex flex-wrap items-center gap-2 text-xs">
             {/* Price Pill Buttons */}
             <div className="flex rounded-lg bg-gray-100 dark:bg-gray-900 p-0.5 border border-gray-200 dark:border-gray-700">
@@ -432,7 +432,7 @@ export default function DiscoverPage() {
                 <button
                   key={p}
                   onClick={() => setSelectedPrice(p)}
-                  className={`px-3 py-1 rounded-md font-medium transition-colors ${
+                  className={`px-2.5 sm:px-3 py-1 rounded-md font-medium transition-colors text-xs ${
                     selectedPrice === p
                       ? "bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 shadow-sm"
                       : "text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white"
@@ -447,7 +447,7 @@ export default function DiscoverPage() {
             <select
               value={selectedSource}
               onChange={(e) => setSelectedSource(e.target.value)}
-              className="py-1 px-2.5 bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-xs text-gray-700 dark:text-gray-300 outline-none capitalize"
+              className="py-1 px-2.5 bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-xs text-gray-700 dark:text-gray-300 outline-none capitalize max-w-[140px] truncate"
             >
               <option value="All">All Sources</option>
               {availableSources.filter(s => s !== "All").map((src) => (
@@ -459,10 +459,10 @@ export default function DiscoverPage() {
             <select
               value={selectedCategory}
               onChange={(e) => setSelectedCategory(e.target.value)}
-              className="py-1 px-2.5 bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-xs text-gray-700 dark:text-gray-300 outline-none"
+              className="py-1 px-2.5 bg-gray-100 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg text-xs text-gray-700 dark:text-gray-300 outline-none max-w-[150px] truncate"
             >
               <option value="All">All Categories</option>
-              {availableCategories.filter(c => c !== "All").slice(0, 15).map((cat) => (
+              {availableCategories.filter(c => c !== "All").slice(0, 20).map((cat) => (
                 <option key={cat} value={cat}>{cat}</option>
               ))}
             </select>
@@ -472,7 +472,7 @@ export default function DiscoverPage() {
           {hasActiveFilters && (
             <button
               onClick={clearFilters}
-              className="text-xs font-semibold text-rose-600 dark:text-rose-400 hover:underline flex items-center gap-1"
+              className="text-xs font-semibold text-rose-600 dark:text-rose-400 hover:underline flex items-center gap-1 self-end sm:self-auto"
             >
               <span>✕</span>
               <span>Reset Filters</span>
@@ -483,7 +483,7 @@ export default function DiscoverPage() {
 
       {/* Loading Skeleton State */}
       {loading && (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
           {[1, 2, 3, 4, 5, 6].map((i) => (
             <div key={i} className="flex flex-col bg-white dark:bg-gray-800 rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 animate-pulse h-96">
               <div className="h-48 bg-gray-200 dark:bg-gray-700" />
@@ -511,20 +511,20 @@ export default function DiscoverPage() {
         <>
           {/* Section 1: Top Picks & Highlights (Shown if no narrow text search) */}
           {topPicks.length > 0 && !searchQuery && (
-            <div className="mb-12">
-              <div className="flex items-center justify-between mb-5">
+            <div className="mb-8 sm:mb-12">
+              <div className="flex items-center justify-between mb-4 sm:mb-5">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                  <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
                     <span>🌟</span>
                     <span>Top Picks & High-Value Opportunities</span>
                   </h2>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-1">
                     Selected by EventScout ranking engine from tier 1 tech companies and premier universities.
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
                 {topPicks.map((event) => (
                   <EventCard
                     key={event.id || event.title}
@@ -539,20 +539,20 @@ export default function DiscoverPage() {
 
           {/* Section 2: Closing Soon (Urgent Opportunities) */}
           {closingSoon.length > 0 && !searchQuery && activeSection === "all" && (
-            <div className="mb-12">
-              <div className="flex items-center justify-between mb-5">
+            <div className="mb-8 sm:mb-12">
+              <div className="flex items-center justify-between mb-4 sm:mb-5">
                 <div>
-                  <h2 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
+                  <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
                     <span>⏳</span>
                     <span>Closing Soon / Happening This Week</span>
                   </h2>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 mt-1">
                     Upcoming deadlines within the next 4 days.
                   </p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
                 {closingSoon.map((event) => (
                   <EventCard
                     key={`urgent-${event.id || event.title}`}
@@ -567,18 +567,18 @@ export default function DiscoverPage() {
 
           {/* Section 3: All Filtered Events */}
           <div>
-            <div className="flex items-center justify-between mb-5">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
+            <div className="flex items-center justify-between mb-4 sm:mb-5">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white flex items-center gap-2">
                 <span>📚</span>
                 <span>All Opportunities</span>
-                <span className="text-sm font-medium text-gray-500 dark:text-gray-400">
+                <span className="text-xs sm:text-sm font-medium text-gray-500 dark:text-gray-400">
                   ({filteredEvents.length})
                 </span>
               </h2>
             </div>
 
             {filteredEvents.length === 0 ? (
-              <div className="text-center py-16 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700">
+              <div className="text-center py-12 sm:py-16 bg-white dark:bg-gray-800 rounded-2xl border border-gray-200 dark:border-gray-700 px-4">
                 <span className="text-4xl block mb-3">🔍</span>
                 <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-1">
                   No matching opportunities found
@@ -594,7 +594,7 @@ export default function DiscoverPage() {
                 </button>
               </div>
             ) : (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
                 {filteredEvents.map((event) => (
                   <EventCard
                     key={event.id || event.title}
