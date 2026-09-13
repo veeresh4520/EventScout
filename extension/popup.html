@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventScout Clipper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <span class="logo-icon">⚡</span>
+        <span class="brand-name">Event<strong>Scout</strong></span>
+      </div>
+      <div class="status-indicator">
+        <span class="status-dot"></span>
+        <span class="status-text" id="connectionStatus">Active</span>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div id="loadingView" class="view">
+        <div class="spinner"></div>
+        <p>Scanning page for technical opportunities...</p>
+      </div>
+
+      <div id="eventView" class="view hidden">
+        <div class="badge-row">
+          <span id="eventCategory" class="badge category-badge">Hackathon</span>
+          <span id="eventMode" class="badge mode-badge">Online</span>
+        </div>
+
+        <h2 id="eventTitle" class="event-title">AI Agent Hackathon 2026</h2>
+        <div class="meta-row">
+          <span class="meta-item">🏢 <span id="eventOrg">Google Cloud</span></span>
+          <span class="meta-item">📅 <span id="eventDate">Oct 24, 2026</span></span>
+        </div>
+
+        <p id="eventDesc" class="event-desc">
+          Join developers worldwide to build state-of-the-art agentic workflows...
+        </p>
+
+        <div id="statusMessage" class="status-message hidden"></div>
+
+        <div class="actions">
+          <button id="saveBtn" class="btn btn-primary">
+            <span class="btn-icon">📥</span> Save to EventScout
+          </button>
+          <a id="viewBtn" href="http://localhost:3000" target="_blank" class="btn btn-secondary">
+            <span class="btn-icon">🔍</span> Open EventScout
+          </a>
+        </div>
+      </div>
+
+      <div id="noEventView" class="view hidden">
+        <div class="no-event-icon">🌐</div>
+        <h3>No Technical Event Detected</h3>
+        <p>This page doesn't appear to contain an active hackathon, conference, or workshop.</p>
+        <a href="http://localhost:3000" target="_blank" class="btn btn-secondary">
+          Browse Opportunities on EventScout
+        </a>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>EventScout AI v2.0 • Chrome Manifest V3</span>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

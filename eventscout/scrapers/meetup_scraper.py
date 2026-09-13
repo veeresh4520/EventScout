@@ -118,11 +118,16 @@ def _save_events_json(events: List[Event], output_path: Path) -> None:
         json.dump(serialized, f, indent=2, ensure_ascii=False)
 
 
-def scrape_meetup_events(output_file: Optional[str] = None, max_pages: int = 4) -> List[Dict[str, Any]]:
+def scrape_meetup_events(
+    output_file: Optional[str] = None,
+    max_pages: int = 4,
+    return_metrics: bool = False,
+) -> Any:
     """
     Main scraper and pipeline function for Meetup event listings.
     Collects multiple batches via Playwright, filters for technical events,
     deduplicates, and saves results to data/events.json.
+    If return_metrics is True, returns (active_events, mongo_metrics).
     """
     print("\n[1/8] Starting Meetup scraper pipeline...")
 
@@ -243,7 +248,10 @@ def scrape_meetup_events(output_file: Optional[str] = None, max_pages: int = 4) 
     if active_events:
         _print_events_summary(active_events)
 
-    return [e.to_dict() for e in active_events]
+    events_dict_list = [e.to_dict() for e in active_events]
+    if return_metrics:
+        return events_dict_list, mongo_metrics
+    return events_dict_list
 
 
 if __name__ == "__main__":

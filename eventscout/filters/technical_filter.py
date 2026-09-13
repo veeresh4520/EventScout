@@ -222,3 +222,13 @@ class TechnicalEventFilter:
 
         is_technical = total_score >= self.min_match_score
         return is_technical, sorted(list(matched_categories))
+
+    def is_technical_event(
+        self,
+        title: str,
+        description: Optional[str] = None,
+        organizer: Optional[str] = None,
+    ) -> bool:
+        """Convenience method returning boolean is_technical flag."""
+        is_tech, _ = self.classify(title, description, organizer)
+        return is_tech

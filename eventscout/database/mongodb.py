@@ -164,11 +164,24 @@ class EventDatabase:
 
         result = col.bulk_write(operations, ordered=False)
 
+        new_event_ids = []
+        new_events = []
+        if hasattr(result, "upserted_ids") and result.upserted_ids:
+            for op_idx, oid in result.upserted_ids.items():
+                new_event_ids.append(str(oid))
+                if op_idx < len(events):
+                    ev_dict = events[op_idx].to_dict()
+                    ev_dict["id"] = str(oid)
+                    ev_dict["_id"] = str(oid)
+                    new_events.append(ev_dict)
+
         metrics = {
             "total": len(events),
             "new_inserted": result.upserted_count,
             "existing_updated": result.modified_count,
             "already_current": result.matched_count - result.modified_count,
+            "new_event_ids": new_event_ids,
+            "new_events": new_events,
         }
         return metrics
 
@@ -209,6 +222,149 @@ class EventDatabase:
 
         return active_events
 
+    def query_events(
+        self,
+        q: Optional[str] = None,
+        category: Optional[str] = None,
+        event_type: Optional[str] = None,
+        mode: Optional[str] = None,
+        city: Optional[str] = None,
+        is_free: Optional[bool] = None,
+        source: Optional[str] = None,
+        skills: Optional[List[str]] = None,
+        sort_by: str = "recommended",
+        user: Optional[Dict[str, Any]] = None,
+        limit: Optional[int] = None,
+        skip: int = 0,
+        reference_time: Optional[datetime] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        Executes an efficient, multi-criteria query across events in MongoDB,
+        ranks results intelligently with user personalization and explanations,
+        and applies pagination.
+        """
+        import re
+        from eventscout.services.ranking_service import ranking_service
+
+        col = self.get_collection()
+        conditions: List[Dict[str, Any]] = []
+
+        # 1. Text Search across Title, Description, Organizer, Categories
+        if q and q.strip():
+            tokens = [t.strip() for t in q.strip().split() if t.strip()]
+            for token in tokens:
+                regex_pat = {"$regex": re.escape(token), "$options": "i"}
+                token_or = [
+                    {"title": regex_pat},
+                    {"description": regex_pat},
+                    {"organizer": regex_pat},
+                    {"organization": regex_pat},
+                    {"categories": regex_pat},
+                    {"source": regex_pat},
+                ]
+                conditions.append({"$or": token_or})
+
+        # 2. Event Type Filter (e.g. hackathon, workshop, conference)
+        if event_type and event_type.strip() and event_type.lower() != "all":
+            et_lower = event_type.strip().lower()
+            regex_pat = {"$regex": re.escape(et_lower), "$options": "i"}
+            conditions.append({
+                "$or": [
+                    {"title": regex_pat},
+                    {"description": regex_pat},
+                    {"categories": regex_pat},
+                ]
+            })
+
+        # 3. Category Filter
+        if category and category.strip() and category.lower() != "all":
+            conditions.append({"categories": {"$regex": re.escape(category.strip()), "$options": "i"}})
+
+        # 4. Mode / Location (Online vs In-Person vs Hybrid)
+        if mode and mode.strip() and mode.lower() != "all":
+            m_lower = mode.strip().lower()
+            if m_lower == "online":
+                conditions.append({"mode_location": {"$regex": "online", "$options": "i"}})
+            elif m_lower in ["in-person", "offline"]:
+                conditions.append({
+                    "mode_location": {
+                        "$nin": ["Online", "online", "Virtual", "virtual"]
+                    }
+                })
+
+        # 5. City / Location Filter
+        if city and city.strip() and city.lower() != "all":
+            city_pat = {"$regex": re.escape(city.strip()), "$options": "i"}
+            conditions.append({
+                "$or": [
+                    {"city": city_pat},
+                    {"mode_location": city_pat},
+                ]
+            })
+
+        # 6. Pricing (Free / Paid)
+        if is_free is not None:
+            conditions.append({"is_free": is_free})
+
+        # 7. Source Platform
+        if source and source.strip() and source.lower() != "all":
+            conditions.append({"source": {"$regex": f"^{re.escape(source.strip())}$", "$options": "i"}})
+
+        # 8. Skills
+        if skills:
+            skill_list = [s.strip() for s in skills if s.strip()]
+            if skill_list:
+                skill_ors = []
+                for sk in skill_list:
+                    sk_pat = {"$regex": re.escape(sk), "$options": "i"}
+                    skill_ors.extend([
+                        {"title": sk_pat},
+                        {"description": sk_pat},
+                        {"categories": sk_pat},
+                    ])
+                conditions.append({"$or": skill_ors})
+
+        mongo_filter = {"$and": conditions} if conditions else {}
+
+        raw_docs = list(col.find(mongo_filter))
+        active_events = []
+
+        for doc in raw_docs:
+            dt_val = doc.get("date_time")
+            if dt_val and self.is_expired(dt_val, reference_time=reference_time):
+                continue
+
+            if "_id" in doc:
+                doc["id"] = str(doc["_id"])
+                doc["_id"] = str(doc["_id"])
+
+            if isinstance(doc.get("date_time"), datetime):
+                doc["date_time"] = doc["date_time"].isoformat()
+
+            if "organizer" in doc and "organization" not in doc:
+                doc["organization"] = doc["organizer"]
+            if "registration_url" in doc and "registrationUrl" not in doc:
+                doc["registrationUrl"] = doc["registration_url"]
+            if "mode_location" in doc and "location" not in doc:
+                doc["location"] = doc["mode_location"]
+
+            active_events.append(doc)
+
+        # Apply multi-signal ranking and sorting
+        ranked_events = ranking_service.rank_events(
+            events=active_events,
+            user=user,
+            sort_by=sort_by,
+        )
+
+        # Pagination
+        if skip > 0:
+            ranked_events = ranked_events[skip:]
+        if limit is not None and limit > 0:
+            ranked_events = ranked_events[:limit]
+
+        return ranked_events
+
     def find_all(self, filter_query: Optional[Dict[str, Any]] = None) -> List[Dict[str, Any]]:
         """Retrieves documents from the collection matching the filter."""
         col = self.get_collection()
@@ -218,4 +374,5 @@ class EventDatabase:
         """Returns the total number of documents in the collection."""
         col = self.get_collection()
         return col.count_documents(filter_query or {})
+
 

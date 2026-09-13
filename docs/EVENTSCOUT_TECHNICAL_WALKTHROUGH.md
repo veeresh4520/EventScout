@@ -26,7 +26,7 @@ To maintain complete clarity about the project's current state, here is the exac
 | Capability | Currently Implemented in Codebase | Future / Planned Work |
 | :--- | :--- | :--- |
 | **Data Sources** | **Meetup.com** via headless browser network interception | Devpost, GitHub Events, Google Developers, Microsoft Reactor, Luma, Unstop |
-| **Data Collection** | Playwright Chromium automation (`MeetupSource`), intercepting GraphQL `gql2` queries with infinite scroll pagination | Automated background cron workers, scheduled scrapers, webhook listeners |
+| **Data Collection** | Playwright Chromium automation (`MeetupSource`), automated background scheduler (APScheduler) for periodic scraping | Webhook listeners |
 | **Data Extraction** | Field-level extraction (`parse_meetup_node`) extracting title, URLs, dates, organizer, venue, pricing, images, and description | Full HTML page body parsing for rich agendas, speaker bios, and sponsor details |
 | **Filtering** | Rule-based regex classification (`TechnicalEventFilter`) with 8 tech taxonomies + city/mode filters (Hyderabad & Online) | Machine Learning / LLM-based categorization, semantic relevance scoring |
 | **Deduplication** | Exact ID (`source:source_event_id`), exact URL, and semantic composite keys (`norm_title::date::norm_organizer`) | Cross-platform fuzzy deduplication using embeddings/vector search |

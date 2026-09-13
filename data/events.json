@@ -20,75 +20,73 @@
       "Artificial Intelligence & Machine Learning",
       "Data & Databases"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601713Z"
+    "scraped_at": "2026-09-13T09:51:25.590544Z"
   },
   {
-    "title": "OWASP Hyderabad Chapter- September  2026 Meetup",
-    "event_url": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/316427703/",
-    "date_time": "2026-09-12T09:30:00+05:30",
-    "organizer": "OWASP Hyderabad Chapter",
+    "title": "IN PERSON Apache Kafka® Meetup Hyderabad - Sep 2026",
+    "event_url": "https://www.meetup.com/hyderabad-kafka/events/316454071/",
+    "date_time": "2026-09-27T10:30:00+05:30",
+    "organizer": "Hyderabad Apache Kafka® Meetup by Confluent",
     "source": "meetup",
     "mode_location": "Offline - Hyderabad",
     "city": "Hyderabad",
     "country": "in",
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/7/e/e/highres_518726606.jpeg",
-    "description": "## Details\n\nDear OWASPIANS & Cybersecurity Enthusiasts,\nWe are excited to invite you to the upcoming OWASP Hyderabad Local Chapter Meeting in collaboration with **Cohere Health**.\nThis event is going to be an on-campus event bringing together cybersecurity enthusiasts, professionals, and experts to discuss the latest trends, best practices, and advancements in Cloud and AI Security.\nEvent Details: Date:12th September 2026\nTime: Starts at 9:30 am IST\n\n* **Location:**\n\n**Cohere Health India Pvt Ltd**\n22nd Floor, Orbit, Plot No 30/C, Sy No 83/1, Hyderabad Knowledge City Raidurg, Panmaktha, Serilingampalle (M), Hyderabad, Telangana 500032\n**Map**: https://maps.app.goo.gl/CuG1Mp11XzfQoYPXA\n**Agenda Highlights:**\n\n* 9:30 AM to 10:00AM -Check-in for the registered persons for the meetup .\n* 10:00AM to 10:10 AM -**Keynote address and welcome by Owasp core team**\n* 10:10AM to 10:30AM -**Keynote address by Cohere Health leadership team**.\n* 10:35AM to 11:05AM- **Session 1**\n\n**AI Patient Zero: AI Agents in Pharma**\nWhat happens when the attacker never touches a user account, an endpoint, or a firewall and data still walks out the door? This session unfolds as a live AI security incident inside a fictional pharmaceutical enterprise: an AI agent with access to R&D, clinical, and regulatory data is quietly manipulated through a single poisoned document.\n\n* **About Speaker**\n\nJohn Joseph is a cybersecurity leader with extensive experience across enterprise security, application security, cloud security, identity and privileged access, security operations, AI security and cyber risk management within the highly regulated healthcare and pharmaceutical sector.\nHe leads cybersecurity strategy and security transformation across complex enterprise environments, working closely with technology and business leadership to translate emerging cyber risks into practical security controls and enterprise resilience. His areas of focus include AI and agentic AI security, secure architecture, application security, cloud security, identity and access management, detection and response, SOC and cybersecurity governance. He brings a practitioner and CISO-level perspective to the evolving challenge of securing AI adoption in regulated industries.\n\n* **Session-2: 11:05 PM to 11:35 AM**\n**AI Data Security: Protecting Sensitive Information in AI-Powered Applications** by **Dr. Leela Lella**\n* **About Speaker:**\nDr. Leela Lella, DBA, is a Cybersecurity Transformation Leader, Founder, Strategic Cybersecurity Advisor, and Ph.D. Research Scholar specializing in Secure AI and National Security. With 13+ years of experience in enterprise cybersecurity, she has led initiatives across application security, cloud security, DevSecOps, security architecture, security operations, cyber resilience, governance, risk, and compliance. Her leadership focus is on building secure digital ecosystems, strengthening organizational cyber resilience, and aligning cybersecurity with business and emerging technology strategies. Her research focuses on Secure AI, AI governance, cyber defense, and national security. She is also a cybersecurity and AI speaker, contributing to industry knowledge, research, and thought leadership.\n* **11:40 AMto 11:55 AM-- Break and Networking**\n* **Session-3 :12:00 PM to 12:30 PM**\n\n**Architecting Saas security Adoption from Business requirement to Security Approval**\n\n* About Speaker:\n\n**Manoj** is a seasoned Cybersecurity Practitioner and Associate Director (Cyber Security) specializing in Technology Risk. He is a **Certified CISM** and **ISO Lead Auditor**, with extensive experience in designing and reviewing **hybrid/multi‑cloud architectures** and optimizing **Cloud-Native Application Protection Platforms (CNAPPs)**.\nHis expertise spans the full spectrum of risk management — from identification to remediation — and includes **threat modeling, control design** based on frameworks such as **NIST, ISO, CSA‑CCM**, and sector‑specific standards. Manoj is deeply engaged in **DevSecOps engineering**, **IT compliance and privacy**, and **identity and access management**.\n\n* **12:35 to 12:55 :AMA on Healthcare Security by Himanshu Gandhi (Cohere GM, India) ,Anurag Mandava and Swarna Pasupuleti**\n\nPlease confirm your attendance via Meetup\nDon't miss out on this valuable opportunity to connect with fellow security enthusiasts and enhance your understanding on AI Security. We look forward to your presence at the OWASP Hyderabad Chapter Meeting.\nNOTE:\n\n* Please ensure to carry your government-issued ID so as to register and get into the premises.\n* Please ensure you are seated 15 minutes before the event starts.\n\n**Note: As Event is hosted in SEZ location, we have limited number of seats, RSVP does not mean it is confirmed. OWASP Team will send Final confirmation email to your email address.**\nBest regards,\nOWASP Hyderabad Chapter",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/1/0/e/5/highres_478624325.jpeg",
+    "description": "Hello everyone! Join us for an **IN PERSON** Apache Kafka® meetup on Sep 27th from 11:00 am hosted by EPAM!\n\n\\*\\*\\*\n**Venue:**\nEPAM, Salarpuria Sattva Knowledge City, Plot [No. 2, Rai Durg, Hyderabad, Telangana 500032](https://www.google.com/maps/search/No.+2,+Rai+Durg,+Hyderabad,+Telangana+500032?entry=gmail&source=g)\nMap: [https://maps.app.goo.gl/J1dPXm9aam1xDMov9](https://urldefense.com/v3/__https://maps.app.goo.gl/J1dPXm9aam1xDMov9__;!!Ayb5sqE7!tPb0Vlr3XAsWDIvb24Oiav8rIH5feWXmbyXDAo5R5qmXCdEqxv4xYmj-a5HosHX9RyydU2W2RNlY5Z60R2ZLbOFSMium$)\n\n\\*\\*\\*\n**Agenda:**\n\n* 10:30: Doors Open\n* 11:00 AM to 11:10 AM: Welcome by Harsh Gulati\n* 11:10 AM to 11:50 AM: Bala Vignesh N V, Lead Software Engineer, Microsoft\n* 11:50 AM to 12:30 PM: Mohammed Ashfaq Ahmed, Senior Solutions Engineer, Confluent\n* 12:30 PM to 12:45 PM: Break\n* 12:45 PM to 13:25 PM: Jitin Chugh, Delivery Manager, EPAM\n* 13:25 PM to 14:30 PM: Lunch\n\n\\*\\*\\*\n**💡 Speaker:**\nMohammed Ashfaq Ahmed, Senior Solutions Engineer, Confluent\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\-\\-\\-\\-\\-\n**💡 Speaker:**\nTBC\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\-\\-\\-\\-\\-\n**💡 Speaker:**\nTBC\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\*\\*\\*\nIf you would like to speak or host our next event please let us know! community@[confluent.io](http://confluent.io/)",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316427703",
-    "registration_url": "https://www.meetup.com/hyderabad-owasp-meetup-group/events/316427703/",
+    "source_event_id": "316454071",
+    "registration_url": "https://www.meetup.com/hyderabad-kafka/events/316454071/",
     "is_technical": true,
     "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cybersecurity"
+      "Data & Databases"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601746Z"
+    "scraped_at": "2026-09-13T09:51:25.590659Z"
   },
   {
-    "title": "Supervised Fine-Tuning to Reinforcement Learning: Train Models to Think Better",
-    "event_url": "https://www.meetup.com/aiyatra/events/316434319/",
-    "date_time": "2026-09-12T09:00:00+05:30",
+    "title": "Diffusion Models from First Principles: From Images to Video & Text",
+    "event_url": "https://www.meetup.com/aiyatra/events/316525443/",
+    "date_time": "2026-09-26T09:00:00+05:30",
     "organizer": "AIYatra",
     "source": "meetup",
     "mode_location": "Offline - Hyderabad",
     "city": "Hyderabad",
     "country": "in",
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/4/b/d/c/highres_535999420.jpeg",
-    "description": "**Note:** It is mandatory to both RSVP and fill out this Google Form https://forms.gle/pJamac2Ejq3LYkZY6 if you miss either of these, the security will not allow you to attend the event. Please ensure that you do not miss filling it out.\n\nThis is an in-person meeting only.\n\n**Note:** Certificates will be provided for those who attend the event and fill out the Google Form that will be shared at the end of the event.\n\n**About the event**\n\nHow do you train a model to get better at a task? What examples do you give it? How do you decide which answers deserve a reward? And once you’ve trained it, how do you know it actually improved?\nWe’ll work through these questions together, starting with a pretrained model and using Supervised Fine-Tuning (SFT) with LoRA to train it on examples. Then we’ll explore DPO for learning from preferences and GRPO for reinforcement learning with rewards. Along the way, we’ll look at what changes inside the model, where things get tricky and what you need to try this yourself.\n\nThis is a hands-on session, so we’ll spend time with code, compare results and make sense of the numbers. We’ll also tackle a question that’s easy to overlook when training seems to be going well and that is, is the model getting better at the task or just getting better at earning the reward?\n\nIf you’re curious about how models learn after pre-training, come along. Some familiarity with Python and machine learning will help, but you don’t need to have trained a model before.\n\nLooking forward to seeing you at the venue and happy learning.",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/e/8/6/2/highres_536099490.jpeg",
+    "description": "Note: Mandatory to fill both RSVP and fill in the Google https://forms.gle/hgBmNo5NHNekVYvm7 no last minute exceptions will be possible without completing both these steps.\n\nBuild a Diffusion Model from Scratch on 6 GB VRAM \\| Image → Video → Audio → Text → Omni\n\nHow does a model learn to create an image, generate a video, produce text, or work across multiple modalities—starting from nothing but noise?\n\nIn this hands-on workshop, we will build an intuitive understanding of **diffusion models from first principles**, starting with the mathematics and fundamental idea of adding noise and learning to reverse that process.\n\nWe will then trace the **evolution of diffusion architectures**, from the early diffusion models to modern approaches used across **image, video, text, audio/multimodal, and Omni-generation systems**.\n\nWe’ll explore concepts such as:\n\n* Forward diffusion and the reverse denoising process\n* Noise schedules, timesteps, and denoising objectives\n* DDPM and DDIM\n* U-Net–based diffusion architectures\n* Latent Diffusion Models\n* Diffusion Transformers (DiT)\n* Flow Matching and modern diffusion/flow-based architectures\n* How diffusion evolved from image generation into video and multimodal generation\n* How modern Omni models combine multiple modalities within generative architectures\n\nThe workshop will conclude with a **live implementation of a diffusion model from scratch**—building the forward-noising process, neural network, training loop, and reverse-generation process ourselves.\n\nThe entire hands-on implementation will be designed to run on a **consumer GPU with just 6 GB of VRAM**, making it possible to understand diffusion without requiring expensive hardware.\n\n**From noise → mathematics → architecture → a working generative model.**",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316434319",
-    "registration_url": "https://www.meetup.com/aiyatra/events/316434319/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601761Z"
-  },
-  {
-    "title": "Product Manager → Product Builder: Is the PM Role Disappearing?",
-    "event_url": "https://www.meetup.com/producttank-hyderabad/events/316369171/",
-    "date_time": "2026-09-12T10:00:00+05:30",
-    "organizer": "ProductTank Hyderabad",
-    "source": "meetup",
-    "mode_location": "Offline - Hyderabad",
-    "city": "Hyderabad",
-    "country": "in",
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/2/e/9/highres_535945321.jpeg",
-    "description": "**What does the future of Product Management look like in the AI era?**\n\nAI is changing how products are built.\n\nA new 2026 CPO Insights Report, based on a global survey of 1,500+ product leaders, makes a provocative prediction: the traditional Product Manager role could become obsolete by 2030.\n\n📉 Traditional Product Manager roles\n\n* Down 30% across industries\n* Down as much as 70% in SaaS\n\n📈 Product Builder roles\n\n* Increased 10x in just one year\n\nThe emerging **Product Builder** combines product thinking with hands-on execution, increasingly using AI to prototype, build, test, and iterate at unprecedented speed.\nAnd this raises some uncomfortable questions:\n\n* Are Product Managers becoming obsolete — or are they simply evolving?\n* What does a Product Builder actually do?\n* Will AI eliminate product roles or make great product people dramatically more powerful?\n* What skills will Product Managers need by 2030?\n* Will the boundary between Product, Engineering, Design and Growth disappear?\n\nJoin us for an interactive discussion on the transition:\n\n**Product Managers to Product Builders**\nWe'll explore:\n🔹 The 2030 Prediction\nWhat the latest CPO research actually says about the future of Product Management.\n🔹 PM vs Product Builder\nHow responsibilities, skills and ways of working are changing.\n🔹 AI as a Product-Building Partner\nHow AI is changing prototyping, experimentation, development and iteration.\n🔹 The New Product Skill Stack\nWhat Product Managers should start learning today.\n🔹 From Roadmaps to Outcomes\nWhy product leaders may need to spend less time managing backlogs and more time creating value.\n🔹 The Future of Product Teams\nWhat happens when Product, Design and Engineering boundaries start collapsing.\n🔹 The 2030 Career Question\n\nIf you are a PM today, what should you become next?\n\n**Who should attend?**\nThis session is particularly relevant for:\n• Product Managers\n• Senior Product Managers\n• Product Leaders & CPOs\n• Product Owners\n• Startup Founders\n• Engineering Leaders\n• Designers working in product teams\n• AI/Product enthusiasts\n• Anyone building digital products\n\n📅September 12, 2026\n🕙10:00 AM – 2:00 PM\n📍iLabs Centre, Durgam Cheruvu Rd, Software Units Layout, Kavuri Hills, Madhapur, Hyderabad, Telangana 500081",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316369171",
-    "registration_url": "https://www.meetup.com/producttank-hyderabad/events/316369171/",
+    "source_event_id": "316525443",
+    "registration_url": "https://www.meetup.com/aiyatra/events/316525443/",
     "is_technical": true,
     "categories": [
       "Artificial Intelligence & Machine Learning"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601772Z"
+    "scraped_at": "2026-09-13T09:51:25.590720Z"
+  },
+  {
+    "title": "AWS Certification Bootcamp - Cloud Practitioner Track",
+    "event_url": "https://www.meetup.com/aws-sbg-at-techno-india-university-salt-lake-campus/events/316496937/",
+    "date_time": "2026-09-13T20:00:00+05:30",
+    "organizer": "AWS SBG at Techno India University - Salt Lake Campus",
+    "source": "meetup",
+    "mode_location": "Online",
+    "city": null,
+    "country": null,
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/e/2/a/highres_536076394.jpeg",
+    "description": "Join us for the **second** session of our **AWS** **Certification** **Bootcamp**, focused on building strong foundations in cloud computing, AWS core services, security, pricing, and billing. The session will also provide an overview of the AWS Well-Architected Framework and guidance on the **CLF-C02** exam pattern with sample questions.\n\nThe session will be facilitated by **Mr. Toshal Khawale**, an **AWS Hero** and Managing Director at PwC, who will share his expertise and insights to help participants strengthen their understanding of AWS Cloud and prepare effectively for the **AWS Certified Cloud Practitioner certification**.",
+    "is_free": true,
+    "price_amount": null,
+    "price_currency": null,
+    "source_event_id": "316496937",
+    "registration_url": "https://www.meetup.com/aws-sbg-at-techno-india-university-salt-lake-campus/events/316496937/",
+    "is_technical": true,
+    "categories": [
+      "Cloud & DevOps"
+    ],
+    "scraped_at": "2026-09-13T09:51:25.590770Z"
   },
   {
     "title": "Context Layers for AI: Knowledge Graphs & Intelligent APIs",
@@ -111,29 +109,7 @@
       "Artificial Intelligence & Machine Learning",
       "Software & Web Development"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601782Z"
-  },
-  {
-    "title": "IN PERSON Apache Kafka® Meetup Hyderabad - Sep 2026",
-    "event_url": "https://www.meetup.com/hyderabad-kafka/events/316454071/",
-    "date_time": "2026-09-27T10:30:00+05:30",
-    "organizer": "Hyderabad Apache Kafka® Meetup by Confluent",
-    "source": "meetup",
-    "mode_location": "Offline - Hyderabad",
-    "city": "Hyderabad",
-    "country": "in",
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/1/0/e/5/highres_478624325.jpeg",
-    "description": "Hello everyone! Join us for an **IN PERSON** Apache Kafka® meetup on Sep 27th from 11:00 am hosted by EPAM!\n\n\\*\\*\\*\n**Venue:**\nEPAM, Salarpuria Sattva Knowledge City, Plot [No. 2, Rai Durg, Hyderabad, Telangana 500032](https://www.google.com/maps/search/No.+2,+Rai+Durg,+Hyderabad,+Telangana+500032?entry=gmail&source=g)\nMap: [https://maps.app.goo.gl/J1dPXm9aam1xDMov9](https://urldefense.com/v3/__https://maps.app.goo.gl/J1dPXm9aam1xDMov9__;!!Ayb5sqE7!tPb0Vlr3XAsWDIvb24Oiav8rIH5feWXmbyXDAo5R5qmXCdEqxv4xYmj-a5HosHX9RyydU2W2RNlY5Z60R2ZLbOFSMium$)\n\n\\*\\*\\*\n**Agenda:**\n\n* 10:30: Doors Open\n* 11:00 AM to 11:10 AM: Welcome by Harsh Gulati\n* 11:10 AM to 11:50 AM: Mohammed Ashfaq Ahmed, Senior Solutions Engineer, Confluent\n* 11:50 AM to 12:30 PM: Speaker 2\n* 12:30 PM to 12:45 PM: Break\n* 12:45 PM to 13:25 PM: Speaker 3\n* 13:25 PM to 14:30 PM: Lunch\n\n\\*\\*\\*\n**💡 Speaker:**\nMohammed Ashfaq Ahmed, Senior Solutions Engineer, Confluent\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\-\\-\\-\\-\\-\n**💡 Speaker:**\nTBC\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\-\\-\\-\\-\\-\n**💡 Speaker:**\nTBC\n\n**Talk:**\nTBC\n\n**Abstract:**\nTBC\n\n\\*\\*\\*\nIf you would like to speak or host our next event please let us know! community@[confluent.io](http://confluent.io/)",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316454071",
-    "registration_url": "https://www.meetup.com/hyderabad-kafka/events/316454071/",
-    "is_technical": true,
-    "categories": [
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601792Z"
+    "scraped_at": "2026-09-13T09:51:25.590819Z"
   },
   {
     "title": "BREAKPOINT (VNRVJIET Convergence Pass Mandatory)",
@@ -157,52 +133,7 @@
       "Cloud & DevOps",
       "Open Source & Hackathons"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601821Z"
-  },
-  {
-    "title": "Zero Trust Security for SMBs: Guarding AWS Workloads Without Enterprise Budgets",
-    "event_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316382289/",
-    "date_time": "2026-09-08T15:30:00+05:30",
-    "organizer": "Amazon Web Services Meetup by Cloud.in",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/9/1/6/8/highres_535957224.jpeg",
-    "description": "Secure your AWS workloads without enterprise security budgets.\n\nMost cloud security breaches aren't caused by sophisticated enterprise-level attacks—they happen because of simple misconfigurations, exposed access keys, or overly permissive IAM roles.\n\nWhile large enterprises spend millions on bloated security suites to solve this, growing companies are left with a tough choice: overspend on software or risk a breach.\n\nThere is a third option.\n\nJoin our upcoming live session, Zero Trust Security for SMBs: Guarding AWS Workloads Without Enterprise Budgets, hosted by Cloud.in.\n\nIn this 45-minute tactical webinar, you’ll learn:\n\n* How to implement Zero Trust principles using native, zero-cost AWS tools you’re already paying for.\n* Quick-win IAM and network lockdown techniques you can implement in under an hour.\n* A realistic blueprint to move from flat account access to granular, least-privilege security.\n\n👉 Reserve Your Spot Here: https://attendee.gotowebinar.com/register/7118596077269957207?source=MG",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316382289",
-    "registration_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316382289/",
-    "is_technical": true,
-    "categories": [
-      "Cloud & DevOps",
-      "Cybersecurity"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601830Z"
-  },
-  {
-    "title": "HTB Meetup : IIUM –  #24",
-    "event_url": "https://www.meetup.com/hack-the-box-meetup-kuala-lumpur-my/events/316040447/",
-    "date_time": "2026-09-08T21:00:00+08:00",
-    "organizer": "Hack The Box Meetup: Kuala Lumpur, MY",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/d/0/c/highres_536007916.jpeg",
-    "description": "**[ HTB Meetup : IIUM – Active Directory: Certificate Services #24 ]**\n\n🔐 Ever wondered how misconfigurations in domain certificates can expose an entire network?\nJoin us for the **Hack The Box Meetup Malaysia** as we dive into **Active Directory: Certificate Services**!\n\n**📅 Date: Tuesday, 9th September 2026**\n**⏰ Time: 9:00 PM - 11:00 PM**\n**📍 Venue: Online (Google Meet)**\n\n🧑‍💻 Level: Beginner-friendly\n🎤 Speaker: Ms. Lina Hamadache\n\n🎁Exclusive HTB goodies await plus a chance to meet fellow cybersecurity enthusiasts and future teammates.\n\nP/S: New to Hack The Box? Sign up here 👉🏻\n[https://hacktheboxltd.sjv.io/kORj2L](https://hacktheboxltd.sjv.io/kORj2L)\n\nSee you at HTB Meetup laterr! 🚀✨\n\nAny Inquiries?\nBr. Muhaimin : https://wa.me/601120846190\nSr. Fatin : https://wa.me/60104547564\n\n🤝🏻 **Supported by: RE:HACK & ICE**\n🛡️ **Organized by: SIG:Cybersecurity IIUM**",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316040447",
-    "registration_url": "https://www.meetup.com/hack-the-box-meetup-kuala-lumpur-my/events/316040447/",
-    "is_technical": true,
-    "categories": [
-      "Cybersecurity"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601853Z"
+    "scraped_at": "2026-09-13T09:51:25.590912Z"
   },
   {
     "title": "Robotics summer camp 2K16",
@@ -224,119 +155,52 @@
     "categories": [
       "Emerging Tech & Hardware"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601862Z"
+    "scraped_at": "2026-09-13T09:51:25.590965Z"
   },
   {
-    "title": "weekend Robotics",
-    "event_url": "https://www.meetup.com/edurobo-hyderabad-robotica/events/316439600/",
-    "date_time": "2026-09-12T09:00:00+05:30",
-    "organizer": "EduRobo - Hyderabad Robotica",
-    "source": "meetup",
-    "mode_location": "Offline - Hyderabad",
-    "city": "Hyderabad",
-    "country": "in",
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/a/2/b/b/highres_433841659.jpeg",
-    "description": "The student gets acquainted with various concepts of Physics, Electronics and would have a thorough understanding of DC motors, electronic components, circuit design etc.\n\nRobotics course ( ONLY ON WEEKENDS)\n\nDetails:\n\n(2nd to 12th grade)​​​​​​\n\n-It is a 12 session course.\n\n-Each session is for two hours.\n\n-Batch timings 09-11,11-13,14-16,16-18\n\n-Classes on Saturday and Sundays.\n\n-Fee is Rs 4800 INR\n\n-One on One training session.\n\n-Extended curriculum would be designed based on the student's progress and interest after completion of his 12 session course.",
-    "is_free": false,
-    "price_amount": 73.5,
-    "price_currency": "USD",
-    "source_event_id": "316439600",
-    "registration_url": "https://www.meetup.com/edurobo-hyderabad-robotica/events/316439600/",
-    "is_technical": true,
-    "categories": [
-      "Emerging Tech & Hardware"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601871Z"
-  },
-  {
-    "title": "AWS Coud Connect: Your First Step Into AWS.",
-    "event_url": "https://www.meetup.com/aws-sbg-at-rv-university/events/316398834/",
-    "date_time": "2026-09-09T18:00:00+05:30",
-    "organizer": "AWS SBG at RV University",
+    "title": "Cloud Computing 101 : Getting Started with AWS",
+    "event_url": "https://www.meetup.com/aws-sbg-at-sindh-madressatul-islam-university/events/316468259/",
+    "date_time": "2026-09-13T19:00:00+05:00",
+    "organizer": "AWS SBG at Sindh Madressatul Islam University",
     "source": "meetup",
     "mode_location": "Online",
     "city": null,
     "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/d/2/2/1/highres_535973793.jpeg",
-    "description": "**Join us for the inaugural AWS Student Builder Group event at RV University, Bangalore** — an introductory session designed to help students understand cloud computing and explore what they can build with AWS.\nWhether you're completely new to cloud or have already experimented with AWS, this session will give you a solid foundation and a clear understanding of the AWS ecosystem.\n\n**What we'll cover?**\n• **Cloud Computing Fundamentals** — IaaS, PaaS, SaaS, scalability, elasticity, and why organizations use the cloud.\n• **AWS Fundamentals** — Regions, Availability Zones, IAM, and the AWS Management Console.\n• **Key AWS Services** — A beginner-friendly overview of EC2, S3, Lambda, RDS, VPC, Lightsail, CloudFront, and Amazon Bedrock.\n• **Real-world use cases** — Understand what you can actually build and deploy using AWS.\n• **Q&A** — Ask questions and get guidance on getting started with AWS.\n\n**Who is this for?**\nStudents interested in **Cloud Computing, AWS, DevOps, AI/ML, and Web Development**, or anyone curious about how modern applications are built and deployed on the cloud.\n**No prior AWS experience is required.**\n\nThis is the **first event by AWS Student Builder Group at RV University**, and we're looking forward to building the AWS community on campus together.\n\n**Important:** Please RSVP for the event on Meetup to confirm your attendance.\nFor event updates, announcements, and future AWS SBG activities, **join our [WhatsApp community](https://chat.whatsapp.com/DuSwGvE7k7HKqWQMiUYpkh)** .",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/2/a/d/8/highres_536050968.jpeg",
+    "description": "### ☁️ Elevating Cloud Insights: Cloud Computing 101 — Getting Started with AWS\n\nJoin us for an engaging introductory session on **Cloud Computing and Amazon Web Services (AWS)**, designed for students, aspiring developers, and anyone looking to begin their cloud journey.\n🎯 **What You’ll Learn:**\n\n* ☁️ Fundamentals of Cloud Computing\n* 🚀 Introduction to AWS and its core services\n* 🤖 AI & Agentic Systems in the cloud\n* 💡 Real-world applications and opportunities\n* 🌍 Insights from a global perspective\n\n🎙️ **Speaker:** Tameem Ud Din\nFounding Member @ 5\\.Y\\, Singapore \\| Building 3x Award\\-Winning Agentic AI Platform\n📅 **Date:** Sunday, 13 September 2026\n⏰ **Time:** 7:00 PM – 8:00 PM (PKT)\n💻 **Platform:** Google Meet\n🎁 **Bonus:** E-Certificates will be provided to attendees, and **swags will be given to quiz winners!**\nCome learn, connect, and take your **first step into the world of AWS & Cloud Computing.** 🚀\n**See you there!** ☁️💜",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316398834",
-    "registration_url": "https://www.meetup.com/aws-sbg-at-rv-university/events/316398834/",
+    "source_event_id": "316468259",
+    "registration_url": "https://www.meetup.com/aws-sbg-at-sindh-madressatul-islam-university/events/316468259/",
     "is_technical": true,
     "categories": [
       "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps",
-      "Software & Web Development"
+      "Cloud & DevOps"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601879Z"
+    "scraped_at": "2026-09-13T09:51:25.591026Z"
   },
   {
-    "title": "From Alert to Action: Mastering Cybersecurity Incident & Crisis Response",
-    "event_url": "https://www.meetup.com/manageengine-india-chapter/events/316368667/",
-    "date_time": "2026-09-08T15:30:00+05:30",
-    "organizer": "ManageEngine - India Chapter",
+    "title": "Data Analytic Group September 2026 : Building Smarter with Microsoft Fabric IQ",
+    "event_url": "https://www.meetup.com/dataanalyticgroup/events/316482881/",
+    "date_time": "2026-09-26T12:00:00+05:30",
+    "organizer": "Data Analytic Group",
     "source": "meetup",
     "mode_location": "Online",
     "city": null,
     "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/0/3/2/highres_535944626.jpeg",
-    "description": "* How to recognize high-risk alerts and separate noise from genuine threats\n* Techniques to quickly assess scope, severity, and business impact\n* Rapid containment strategies to prevent threat propagation\n* Best practices for coordinating SOC, IT, legal, and leadership teams during incidents\n* Decision-making frameworks for escalation, authority, and accountability\n* Effective communication strategies during a cyber crisis\n* Forensic readiness and evidence preservation for investigations\n* Approaches to recovery, system restoration, and business continuity\n* Improving incident response with centralized visibility and monitoring tools",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/0/6/d/highres_536064685.jpeg",
+    "description": "As organizations explore the next wave of AI, the question is no longer “Can we use AI?” - but “How can we use it meaningfully?”\nThis session explores how Microsoft Fabric IQ and Data Agents enable new ways to access, understand, and automate data – without switching tools or writing custom code.\nYou’ll learn how to:\n1\\. Connect natural language interfaces to lakehouses\\, warehouses & semantic models\n2\\. Use Fabric IQ ontologies to bring business meaning to technical data\n3\\. Deploy Data Agents that retrieve\\, plan\\, and summarize based on user intent\n4\\. Build agent\\-driven workflows that feel intuitive \\- and actually get things done\nThis session combines technical architecture with real-world examples to show how conversational AI is changing the way we work with data - directly inside Microsoft Fabric.\n\n## *Speaker :* **[Hanna Schwab](https://www.linkedin.com/in/hanna-schwab/)\\,Data & AI Lead @ teccle group \\| Microsoft Foundry MVP**\n\n##\n\n**Organizers: [Rajendra Ongole](https://www.linkedin.com/in/rajendra-ongole/overlay/about-this-profile/ \"https://www.linkedin.com/in/rajendra-ongole/overlay/about-this-profile/\"), [Koundinya Lanka](https://www.linkedin.com/in/koundinyalvs/overlay/about-this-profile/ \"https://www.linkedin.com/in/koundinyalvs/overlay/about-this-profile/\"),[Shashi](https://www.linkedin.com/in/juluri-shashi-kumar/overlay/about-this-profile/ \"https://www.linkedin.com/in/juluri-shashi-kumar/overlay/about-this-profile/\"),Navya K**\n**COO: Charitha Reddy, Meghana,Sreekar T**\n🔗𝑹𝒆𝒈𝒊𝒔𝒕𝒆𝒓 𝒂𝒕 𝑴𝒆𝒆𝒕𝒖𝒑: https://www.meetup.com/dataanalyticgroup/\n📲𝑱𝒐𝒊𝒏 𝒕𝒉𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑮𝒓𝒐𝒖𝒑: https://chat.whatsapp.com/CkMRYzyoKSNKbXUs2IN2MU\n📲𝑱𝒐𝒊𝒏 𝒕𝒉𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑳𝒊𝒏𝒌:https://whatsapp.com/channel/0029VaBgfAwDOQIeuTjGbF3u\n📲YouTube channel: https://www.youtube.com/@Dataanalyticgroup\n🌐 𝑱𝒐𝒊𝒏 𝒖𝒔 𝒐𝒏 𝑭𝒂𝒃𝒓𝒊𝒄 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚 : https://community.fabric.microsoft.com/t5/Data-Analytic-Group/gh-p/DataAnalyticGroup\n🔗 𝑨𝒍𝒔𝒐 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒐𝒏 Discord: https://discord.gg/CGvZ2Nu9\n🔗 𝑨𝒍𝒔𝒐 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒐𝒏 Telegram: https://t.me/DataAnalyticGroup\nWe look forward to having you attend the event!",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316368667",
-    "registration_url": "https://www.meetup.com/manageengine-india-chapter/events/316368667/",
-    "is_technical": true,
-    "categories": [
-      "Cybersecurity"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601886Z"
-  },
-  {
-    "title": "Coding Agents in UiPath: From Setup to Production",
-    "event_url": "https://www.meetup.com/agentic-ai-community-pune/events/316264312/",
-    "date_time": "2026-09-08T19:00:00+05:30",
-    "organizer": "Agentic AI Community Pune",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/5/e/6/highres_534421510.jpeg",
-    "description": "Event Overview\nStep into the world of AI-powered development and discover how Coding Agents can transform the way you build, debug, and improve automations in the UiPath ecosystem.\n\nIn this hands-on session, we’ll explore Coding Agents, Skills, developer tools, and AI-assisted development workflows across UiPath Studio and VS Code, followed by a real-world live demo.\n\n📚Agenda\nDiscover how Coding Agents can help you build, debug, and improve UiPath automations using AI-powered development.\n\n1. Coding Agent & Skills\n\nUnderstand what Coding Agents are, how Skills work, and what they can do for UiPath developers.\n\n2. Setup Your AI Development Environment\n\nGet started with Coding Agents in UiPath Studio and VS Code, including developer tools and extensions.\n\n3. Code with Your Agent\n\nExplore how to work with Coding Agents using Skills, Terminal, Codex, Gemini, and natural-language instructions.\n\n4. Live Demo — Build a Real-World Agent\n\nWatch a Coding Agent build and improve a Job Hunting Agent — from idea to working automation.\n\n5. Build Smarter with Best Practices\n\nLearn practical tips for prompting, providing context, reviewing AI-generated changes, debugging, and using agents safely.\n\n🤔What You'll Take Away\nBy the end of the session, you will understand how to:\n\nGet started with Coding Agents in the UiPath ecosystem\n\nSet up your AI development environment\n\nWork with Skills, Terminal, and developer extensions\n\nUse tools such as Codex and Gemini\n\nBuild and improve automations with AI assistance\n\nDebug and troubleshoot agent-generated solutions\n\nApply effective prompting and context-management techniques\n\nIntegrate Coding Agents into your everyday UiPath development workflow\n\nWho Should Attend?\n\nUiPath Developers\n\nRPA Developers\n\nAutomation Engineers\n\nSoftware Developers\n\nTechnical Leads & Architects\n\nDevelopers interested in AI-powered coding\n\nAnyone looking to explore the future of automation development",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316264312",
-    "registration_url": "https://www.meetup.com/agentic-ai-community-pune/events/316264312/",
+    "source_event_id": "316482881",
+    "registration_url": "https://www.meetup.com/dataanalyticgroup/events/316482881/",
     "is_technical": true,
     "categories": [
       "Artificial Intelligence & Machine Learning"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601894Z"
-  },
-  {
-    "title": "AI as a Developer Multiplier",
-    "event_url": "https://www.meetup.com/avalara-tech-talks/events/315956696/",
-    "date_time": "2026-09-08T17:00:00+05:30",
-    "organizer": "Avalara Tech Talks",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/7/a/d/6/highres_535111446.jpeg",
-    "description": "AI is changing how software gets built — but the developers who thrive won't be the ones who hand everything over to AI. They'll be the ones who know how to direct it.\n\nIn this talk, Teja delivers a practical guide for software developers on how to work *with* AI to dramatically amplify output, quality, and speed — without losing the engineering judgment that makes a great developer irreplaceable.\n**What you'll learn:**\n\n* Writing AI-friendly requirements that get better results\n* Breaking down large problems for AI to tackle in chunks\n* Using AI to review your code and keep your docs up to date\n* Structuring multi-round AI conversations effectively\n* Making your repositories agent-ready\n\nWhether you're just getting started with AI-assisted development or looking to level up your workflow, you'll walk away with a **concrete set of practices to apply immediately**.\n\n**About Presenter:** Teja Dhanekula\n\nTeja Dhanekula is a software engineer and tech lead at Avalara, one of the world's leading cloud compliance companies, where he works on building robust, scalable tax engineering solutions. With a strong foundation in software development and a sharp focus on engineering excellence, Teja brings real-world experience to the intersection of developer productivity and emerging AI tooling.\n\nTeja is passionate about how AI can act as a force multiplier for engineering teams — not as a replacement for skilled developers, but as a powerful collaborator that amplifies what great engineers can do. He has hands-on experience integrating AI-assisted workflows into day-to-day development practices, from writing AI-friendly requirements to structuring repositories for agent readiness.\nLinkedin: https://www.linkedin.com/in/teja-dhanekula-13623857/",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "315956696",
-    "registration_url": "https://www.meetup.com/avalara-tech-talks/events/315956696/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601907Z"
+    "scraped_at": "2026-09-13T09:51:25.591157Z"
   },
   {
     "title": "Nepal Cloud Meetup- Sept 2026",
@@ -358,29 +222,7 @@
     "categories": [
       "Cloud & DevOps"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601915Z"
-  },
-  {
-    "title": "AI Demo & Mentor Feedback Session",
-    "event_url": "https://www.meetup.com/dubaidata/events/316070252/",
-    "date_time": "2026-09-08T19:00:00+04:00",
-    "organizer": "DubAI and Data Professional",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/0/b/7/highres_536029335.jpeg",
-    "description": "Join us on **Tuesday, 8 September (GST)** for an interactive session bringing together challenge participants, demo presenters, mentors and the wider AI community.\n\nSelected participants will present their **Agentic AI applications**, explain the problems they are solving, demonstrate how their solutions work and share the lessons and challenges from their building journey.\nOur invited mentors will provide practical feedback, guidance and ideas to help participants strengthen their applications and prepare better final submissions. We will also explore what makes a strong challenge submission and a valuable Agentic AI application.\n\nThis session is an important part of the **Building Agentic AI Application Challenge**—a collaborative space to share progress, learn from real projects, receive constructive feedback and grow together as AI builders.\nWhether you are presenting, building, mentoring or simply interested in learning from practical AI applications, you are welcome to join, contribute and learn with the community.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316070252",
-    "registration_url": "https://www.meetup.com/dubaidata/events/316070252/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601931Z"
+    "scraped_at": "2026-09-13T09:51:25.591193Z"
   },
   {
     "title": "Generative AI: From Fundamentals to AWS",
@@ -404,30 +246,7 @@
       "Cloud & DevOps",
       "Software & Web Development"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601939Z"
-  },
-  {
-    "title": "Hyderabad - Build Your First AI Agent – No Code, Just Execution",
-    "event_url": "https://www.meetup.com/hyderabad-ai-agent-builders-powered-by-botcampus-ai/events/316150398/",
-    "date_time": "2026-09-12T10:00:00+05:30",
-    "organizer": "Hyderabad AI Agent Builders",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/9/6/4/8/highres_535658472.jpeg",
-    "description": "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗛𝘆𝗱𝗲𝗿𝗮𝗯𝗮𝗱 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗕𝘂𝗶𝗹𝗱𝗲𝗿𝘀!\n💡 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗕𝗼𝘁𝗖𝗮𝗺𝗽𝘂𝘀 𝗔𝗜 — where AI meets action.\n📅 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆\n⏰ **10:00 AM 𝗜𝗦𝗧**\n⏱️ 𝟮 𝗛𝗼𝘂𝗿 𝗛𝗮𝗻𝗱𝘀-𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽\n📌 𝗝𝗼𝗶𝗻 𝘁𝗵𝗲 𝗟𝗜𝗩𝗘 𝘀𝗲𝘀𝘀𝗶𝗼𝗻:\n[https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw](https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw)\n\n🤖 𝗕𝘂𝗶𝗹𝗱 𝗬𝗼𝘂𝗿 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗶𝗻 𝟯𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\n\nThis Bengaluru community is for developers, tech professionals, entrepreneurs, creators and anyone who wants to move beyond ChatGPT prompts and start building real AI Agents.\n\n🛠️ 𝗜𝗻 𝘁𝗵𝗲 𝘄𝗼𝗿𝗸𝘀𝗵𝗼𝗽, 𝘄𝗲’𝗹𝗹 𝗯𝘂𝗶𝗹𝗱 𝗮𝗻𝗱 𝗲𝘅𝗽𝗹𝗼𝗿𝗲:\n• 🧩 Claude Code — Build, debug & ship AI applications\n• 🎨 Claude Design — Create AI-powered interfaces\n• 🔗 MCP — Connect agents to tools, APIs & data\n• 📚 RAG — Give your AI Agent real knowledge\n• 💡 Real-world AI Agent use cases\n𝗡𝗼 𝗹𝗼𝗻𝗴 𝘁𝗵𝗲𝗼𝗿𝘆. 𝗡𝗼 𝗰𝗼𝗺𝗽𝗹𝗶𝗰𝗮𝘁𝗲𝗱 𝗰𝗼𝗱𝗶𝗻𝗴. 𝗪𝗲 𝗯𝘂𝗶𝗹𝗱 𝗶𝘁 𝗹𝗶𝘃𝗲.\n👨‍🏫 𝗟𝗲𝗱 𝗯𝘆 𝗔𝗯𝗱𝘂𝗹𝗹𝗮𝗵 𝗞𝗵𝗮𝗻 — Microsoft Certified Trainer & Architect, with 50,000+ professionals trained globally.\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗮𝗯𝗼𝘂𝘁:\n⚡ Practical AI Agent learning\n🛠️ Hands-on building\n📦 Templates, resources & workflows\n🤝 Bengaluru AI builder community\n🎯 Live workshops, demos & special sessions\n\n𝗧𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝗔𝗜 𝗴𝗿𝗼𝘂𝗽.\n𝗜𝘁’𝘀 𝗮 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗳𝗼𝗿 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗯𝘂𝗶𝗹𝗱.\n𝗟𝗲𝘁’𝘀 𝗯𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 — 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316150398",
-    "registration_url": "https://www.meetup.com/hyderabad-ai-agent-builders-powered-by-botcampus-ai/events/316150398/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601964Z"
+    "scraped_at": "2026-09-13T09:51:25.591231Z"
   },
   {
     "title": "Agentic AI Multimodal MonthlyMixer - Where Agents Minds Meet",
@@ -450,350 +269,75 @@
       "Artificial Intelligence & Machine Learning",
       "Data & Databases"
     ],
-    "scraped_at": "2026-09-08T08:18:56.601972Z"
+    "scraped_at": "2026-09-13T09:51:25.591276Z"
   },
   {
-    "title": "LangGraph Deep Dive for Backend Engineers",
-    "event_url": "https://www.meetup.com/pramaservices/events/316210899/",
-    "date_time": "2026-09-11T09:00:00+05:30",
-    "organizer": "Prama AI",
+    "title": "The Bedrock Console, End to End: Discover, Build, Assess, Configure",
+    "event_url": "https://www.meetup.com/awsaimlindia/events/316267631/",
+    "date_time": "2026-10-02T17:00:00+05:30",
+    "organizer": "AWS User Group India AI ML",
     "source": "meetup",
     "mode_location": "Online",
     "city": null,
     "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/5/c/a/b/highres_535763723.jpeg",
-    "description": "AI applications are evolving beyond simple LLM calls. Join us for an insightful session on **LangGraph** and learn how backend engineers can build scalable, stateful, and production-ready AI applications.\n\n**What we'll cover:**\n\n* LangGraph fundamentals and core architecture\n* State management, nodes, edges, and workflows\n* Building AI agents and tool-based workflows\n* Memory, persistence, and human-in-the-loop\n* Integrating LangGraph with backend systems and APIs\n* Best practices for building scalable and production-ready AI applications\n\nLearn how to leverage **LangGraph to design smarter, more reliable, and production-ready AI systems** while applying strong backend engineering principles.",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/b/d/9/highres_535835801.jpeg",
+    "description": "The Bedrock console has four sections and twenty-some features. Most people use five. This session builds one real app that touches all of them — model selection from the Catalogue, AgentCore vs. Agents (classic), Custom vs. Managed Knowledge Base measured head-to-head, Guardrails paired with Automated Reasoning, Flows for orchestration, and Provisioned Throughput vs. Batch for the economics. Less a feature tour, more a map: what's worth adopting, what's solving a problem you don't have.",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316210899",
-    "registration_url": "https://www.meetup.com/pramaservices/events/316210899/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601981Z"
-  },
-  {
-    "title": "TechConnect - Virtual Job and Networking Event for Data AI Tech Professionals",
-    "event_url": "https://www.meetup.com/ai-pdy/events/316054481/",
-    "date_time": "2026-09-09T16:00:00+05:30",
-    "organizer": "Puducherry AI & Data Science Community — AI.Bharath.CLUB",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/a/a/f/b/highres_524803771.jpeg",
-    "description": "**Welcome to TechConnect: Virtual Job & Networking Event for Data, AI, & Tech Professionals!**\nAre you a professional in the fields of data, AI, or technology? **TechConnect** is the premier virtual networking event that brings together data scientists, AI specialists, software developers, and tech enthusiasts to connect with employers and explore exciting career opportunities in the tech industry.\n**Event Details:**\n\n* **Time:** 4-6 pm (Local Time)\n* **Venue:** Virtual. RSVP at [https://events.tao.ai/pod/ai.bharath.club/cont-te5gd5wngmz9](https://events.tao.ai/pod/ai.bharath.club/cont-te5gd5wngmz9)\n* **Hosted by:** No Worker Left Behind (NWLB)\n\n**Why Attend TechConnect?**\n\n* **Discover Job Opportunities:** Access a wide range of job openings in data science, artificial intelligence, machine learning, software development, cybersecurity, and more.\n* **Network with Peers:** Connect with tech recruiters, hiring managers, and professionals from leading companies in the tech space.\n* **Career Development:** Get valuable tips on building a successful tech career, advancing in your current role, or transitioning to new areas in the tech field.\n\n**How to Participate:**\n\n1. **Register:** Create your profile and complete your settings on this platform.\n2. **RSVP for the Event:** Secure your spot to access job listings and network with tech employers and industry experts.\n3. **Engage with the Community:** Join discussions, share your experiences, and connect with fellow tech professionals to explore new career paths.\n\n**For Data, AI, & Tech Professionals:** Whether you're a seasoned data scientist, AI engineer, software developer, or just starting in tech, **TechConnect** offers the networking and resources you need to excel in your career.\n**Invite Your Network:** Know someone in tech? Share **TechConnect** with them and help grow their professional network and career opportunities in data, AI, and tech.\n**Tags:** #TechCareers, #DataScienceJobs, #AIJobs, #MachineLearningCareers, #SoftwareDevelopment, #TechNetworking, #DataJobs, #AIProfessionals, #TechOpportunities, #VirtualJobFair, #CybersecurityJobs, #CloudComputing, #TechIndustry, #TechCareerGrowth, #TechHiring, #TechTalent, #TechConnect, #JobFairTech, #AIAndDataCareers, #CareerInTech\n\nIf any questions or suggestions please drop us a note at: https://noworkerleftbehind.org/event_support",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316054481",
-    "registration_url": "https://www.meetup.com/ai-pdy/events/316054481/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cybersecurity",
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601988Z"
-  },
-  {
-    "title": "AI Products at Manufacturing Plants",
-    "event_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316208848/",
-    "date_time": "2026-09-20T18:00:00+05:30",
-    "organizer": "Microsoft Fabric User Group Pune",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/5/4/c/f/highres_535761711.jpeg",
-    "description": "**Event Details:**\n\n* **Date:** 20 September 2026\n* **Time:** 6:00 PM IST\n* **Speakers:**\n* Raghavendra Kalapatapu \\| [LinkedIn Profile](https://www.linkedin.com/in/raghavendra-kalapatapu-661a108/)\n* Shiva Shellikeri \\| [LinkedIn Profile](https://www.linkedin.com/in/shiva-ns-8ba00b191)\n\n**About the Event: Beyond the Hype - The Rise of Agentic AI in Manufacturing**\nWe hear a lot about AI these days, but on the factory floor, technology only creates real value when it definitively reduces costs and saves time. Enter **Agentic AI** \\- the next evolution of artificial intelligence that goes beyond merely analyzing data to taking autonomous\\, intelligent action\\.\nBut what does this actually look like in a modern, high-stakes plant environment?\nJoin us as we cut through the buzzwords and explore how Agentic AI is practically rewiring manufacturing operations. We will uncover how these autonomous systems are revolutionizing plant management across three critical frontiers:\n\n* **The Data Detective (Log Analysis at Scale):** What if your systems could instantly process millions of complex machine logs, cut through the noise, and tell you exactly what to fix *before* a costly failure occurs?\n* **The Master Planner (Dynamic Order Scheduling):** Static planning is no longer enough. Discover how AI assistants can process real-time variables to instantly reroute, reschedule, and optimize orders - minimizing downtime and squeezing every drop of efficiency out of your operations.\n* **The Always-On Sentinel (Continuous Surveillance):** Imagine an intelligent system that never sleeps, continuously monitoring your entire facility to proactively identify anomalies, flag potential bottlenecks, and spot abnormal elements the moment they appear.\n\nAre you ready to see how Agentic AI is moving from science fiction to factory floor reality? Join us to learn how autonomous intelligence can transform your operational efficiency and keep you ahead of the curve.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316208848",
-    "registration_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316208848/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.601995Z"
-  },
-  {
-    "title": "Agentic Stack - Building AI-Native Software Delivery",
-    "event_url": "https://www.meetup.com/lead-with-tech-meetup-group/events/316136449/",
-    "date_time": "2026-09-08T19:00:00+05:30",
-    "organizer": "Lead With Tech Meetup Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/d/f/f/b/highres_535377339.jpeg",
-    "description": "**What you'll learn in this session:**\n\n* Why Agentic SDLC requires an engineering approach, not just agent orchestration.\n* The AgenticStack framework and how it structures AI across every SDLC phase.\n* A live demonstration of an end-to-end Agentic SDLC workflow.\n\n**More about the event**\n\nBuilding an Agentic SDLC is far more than connecting a few AI agents together. Modern software delivery is a complex ecosystem of specialized roles—including Business Analysts, Architects, Developers, QA Engineers, DevOps, Infrastructure, UAT, Release Management, and Support—each with well-defined processes, inputs, outputs, and quality gates.\n\nSimply introducing AI agents does not transform software delivery.\nThe real opportunity lies in engineering each SDLC phase with purpose, enabling specialized AI agents to augment individual roles before orchestrating them into a connected, governed, and measurable delivery lifecycle.\nAt Lead With Tech, we call this AgenticStack—an engineering-first approach to building Agentic SDLC. Instead of focusing on isolated AI agents, we focus on designing intelligent workflows, role-specific agents, governance, and seamless collaboration across the entire software delivery lifecycle.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316136449",
-    "registration_url": "https://www.meetup.com/lead-with-tech-meetup-group/events/316136449/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps",
-      "Open Source & Hackathons"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602005Z"
-  },
-  {
-    "title": "AIConnect: Global Virtual Job & Career Networking Event for AI Specialists",
-    "event_url": "https://www.meetup.com/aibharath-maa/events/315583007/",
-    "date_time": "2026-09-11T14:30:00+05:30",
-    "organizer": "Chennai AI & Data Science Community — AI.Bharath.CLUB",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/e/0/b/a/highres_527157530.jpeg",
-    "description": "Are you an AI engineer, data scientist, machine learning researcher, or aspiring innovator in the world of artificial intelligence? **AIConnect** is your dynamic **AI networking event online** designed to foster real-time conversations, career growth, and collaboration opportunities — all within a vibrant and self-led virtual space.\n\nWhether you're exploring job roles in AI, hoping to demo your latest project, or searching for your next co-developer or data scientist partner, **AIConnect** offers a one-of-a-kind experience to connect with the global **machine learning community meetup** — anytime, from anywhere.\n\n🎥 **Watch how it works in our explainer video:**\n👉 [https://www.youtube.com/watch?v=bH3uNrkUTuw](https://www.youtube.com/watch?v=bH3uNrkUTuw)\n\n**💡 Why Join AIConnect?**\n\nThis is not just another virtual event. It’s a **collaboration platform for AI specialists** where you can grow your professional network, showcase your AI/ML portfolio, exchange ideas, and chat directly with fellow participants, recruiters, and service providers.\nDesigned for **AI career fair virtual** seekers and builders alike, the platform supports live 1-1 **video or text chats**, and offers open access to diverse community-led channels tailored to your interests.\n\n**💬 Brainstorming & Discussion Channels Include:**\n\n* **General** – Your go-to hub for announcements, orientation, and casual community-wide conversation.\n* **Intros** – Introduce yourself, your research, your startup, or just share your journey in AI.\n* **Networking** – Showcase your AI/ML projects, portfolios, startup pitches, or job aspirations.\n* **Help Wanted** – Looking for team members, mentorship, freelance gigs, or offering support? Post here.\n* **Industry Room Tech** – Dive into the latest developments in AI frameworks, ML pipelines, data tools, and tech trends.\n\nWhether you’re a beginner or a pro, a researcher or a recruiter — this space empowers growth through **project demos, career discussions, and research conversations.**\n\n**🧠 What You’ll Gain:**\n\n* Direct access to a **global AI talent and hiring ecosystem**\n* Exposure to cutting-edge projects via the **AI project showcase event**\n* Connections with peers and thought leaders across AI, ML, and data science\n* Career insights and opportunities from fellow professionals and employers\n* A flexible environment to network, brainstorm, and build meaningful collaborations\n* Instant 1-on-1 video or text chats for deeper engagement\n\n**📍 Where:**\nJoin virtually at:\n👉 [https://events.tao.ai/pod/ai.bharath.club/jknf0o9m3kix](https://events.tao.ai/pod/ai.bharath.club/jknf0o9m3kix)\n**🕔 When:**\nEvery session starts at **5:00 PM – 7:00 PM local time** — recurring monthly on Fridays. Mark your calendar and come prepared to connect!\n\n**👥 Who Should Attend:**\n\n* AI engineers, ML developers, and data scientists\n* Startup founders and entrepreneurs in the AI/tech space\n* Recruiters, hiring managers, and project collaborators\n* Students, academics, and early-career professionals\n* Anyone passionate about AI, machine learning, and applied tech innovation\n\n**📩 Questions or Suggestions?**\nWe’d love to hear from you. Reach us anytime here:\n👉 [https://noworkerleftbehind.org/event_support](https://noworkerleftbehind.org/event_support)\n\n**🔖 Hashtags:**\n#AIConnect #AINetworkingEventOnline #AICareerFairVirtual #MachineLearningCommunityMeetup #AIProjectShowcaseEvent #CollaborationPlatformForAISpecialists #MLJobs #GlobalAINetworking #TechNetworkingEvent #AIProfessionalsUnite",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "315583007",
-    "registration_url": "https://www.meetup.com/aibharath-maa/events/315583007/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602012Z"
-  },
-  {
-    "title": "Prompt to Production: SMB Micro-SaaS with Claude on AWS Bedrock",
-    "event_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316397662/",
-    "date_time": "2026-09-10T15:30:00+05:30",
-    "organizer": "Amazon Web Services Meetup by Cloud.in",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/3/0/b/highres_535969931.jpeg",
-    "description": "🚀 From Idea to Revenue-Generating Micro-SaaS — In Hours, Not Months.\n\nPrototyping AI is easy. Turning that prototype into a secure, scalable, multi-tenant B2B SaaS product is where the real challenge begins.\n\nJoin **Cloud.in** for an exclusive live technical session:\n🎯 Prompt to Production: Building SMB Micro-SaaS Applications with Anthropic Claude on AWS Bedrock\n\nDiscover how SMBs and startup teams can combine Anthropic Claude’s advanced reasoning with AWS Bedrock and serverless AWS services to transform niche business problems into production-ready Micro-SaaS applications.\n\n💡 **What You’ll Learn:**\n🔹 **Micro-SaaS + Claude** — Structured JSON, tool use & long-context capabilities\n🔹 **Production Architecture** — AWS Bedrock, Lambda & API Gateway for scalable applications\n🔹 **Security & Privacy** — Keep customer data within your AWS environment\n🔹 **Live Blueprint** — From prompt design to API integration & cost guardrails\n\n⚡ **Stop prototyping. Start building for production.**\n\n📅 10 September 2026\n⏰ 3:30 PM – 4:30 PM IST\n💻 Live Online\n\n👉 **Register now and turn your AI idea into a production-ready Micro-SaaS :** https://attendee.gotowebinar.com/register/3094806831633447254?source=MG",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316397662",
-    "registration_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316397662/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602020Z"
-  },
-  {
-    "title": "16th Anniversary Annual Algo Trading Conference 2026",
-    "event_url": "https://www.meetup.com/algo-and-quant-trading/events/316454664/",
-    "date_time": "2026-09-08T18:00:00+05:30",
-    "organizer": "Algo and Quant Trading",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/2/3/9/e/highres_535929118.jpeg",
-    "description": "**Everyone is talking about AI in trading. Far fewer people will show you one being built, then break it on purpose.** That is how our 16th anniversary edition opens, and there are two more sessions after it.\n\n**Why attend?**\n\n* **An agent built live, then broken on purpose.** The workshop wires an AI agent to research, code and test a strategy idea end to end in a notebook, then goes after it: leakage from a generated pipeline, overfitting that survives a backtest, drift after deployment. You see where the tool earns its place and where it is autocomplete with confidence.\n* **Inside a real HFT setup.** A fireside chat on the machinery most people in this field read about but never see: co-location, feed handlers, order gateways, what each layer costs in latency, and how much of the edge is engineering rather than signal.\n* **What all of this does to the job.** A careers panel with voices from broking, investment management and industry. Which parts of a quant's role have already been absorbed, which have not moved at all, and what hiring managers are screening for now that they were not three years ago.\n* **Immediate utility.** Participants get the workshop notebook, which runs in the browser with nothing to install, plus a checklist of the specific ways AI-assisted work goes wrong and how each one is caught.\n* **Efficient format.** Three focused sessions, three hours, virtual delivery, live Q&A in all three. Participation is capped to keep the Q&A substantive.\n\n**Agenda \\| 6:00 PM to 9:00 PM IST**\nWorkshop: Agentic AI in trading\\, 75 min \\| Fireside chat: What's inside a real HFT setup\\, 30 min \\| Panel: How AI is shaping careers in financial markets\\, 60 min\nSpeakers are announced in the weeks before the event. Registrants hear first.\nFree to attend. Nothing is sold from the stage. Seats are limited. Register today: [https://www.quantinsti.com/algorithmic-trading-conference](https://www.quantinsti.com/algorithmic-trading-conference)",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316454664",
-    "registration_url": "https://www.meetup.com/algo-and-quant-trading/events/316454664/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602027Z"
-  },
-  {
-    "title": "Learn Excel from A to Z: Beginner to Job-Ready, Live",
-    "event_url": "https://www.meetup.com/maharashtra-data-analytics-group-meetup-group/events/316398889/",
-    "date_time": "2026-09-13T11:00:00+05:30",
-    "organizer": "Data Analytics & Data Science Meetup Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/7/9/d/highres_535971101.jpeg",
-    "description": "**What you'll walk away with:**\n\n* **KPI Derivation:** Practise calculating real business metrics—units per transaction, average order value, click-through rate, conversion rate, and repeat purchase rate—directly from raw transaction data.\n* **Formulae:** Hands-on practice with SUM, AVERAGE, RANK(), RANK.EQ(), COUNTIF/COUNTIFS, SUMIF/SUMIFS, VLOOKUP/XLOOKUP, INDEX-MATCH, and nested IF—applied to build the metrics above, not just isolated examples.\n* **Pivot Tables:** Break down these metrics by region, product, or time period, and rank top and bottom performers instantly.\n* **Power Query:** Clean and merge raw sales/marketing data (removing duplicates, fixing formats, combining sheets) before calculating any of the above.\n* **Dashboards:** Combine all the metrics into one interactive dashboard with rankings, trends, and filters—built live and reusable for your own reports.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316398889",
-    "registration_url": "https://www.meetup.com/maharashtra-data-analytics-group-meetup-group/events/316398889/",
-    "is_technical": true,
-    "categories": [
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602034Z"
-  },
-  {
-    "title": "From Automation to Autonomy: Agentic AI Workflows for Mid-Market Efficiency",
-    "event_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316453620/",
-    "date_time": "2026-09-15T15:30:00+05:30",
-    "organizer": "Amazon Web Services Meetup by Cloud.in",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/1/c/8/highres_536029608.jpeg",
-    "description": "**From Automation to Autonomy 🤖**\nWhat happens when traditional automation meets changing processes and messy data?\nWorkflows stall. Teams intervene. Costs grow.\n\nDiscover how **Agentic AI Workflows** can help your business:\n✅ Reason & adapt\n✅ Execute multi-step operations\n✅ Improve operational efficiency\n✅ Scale without linearly scaling headcount\n\n🎙️ **Cloud.in Live Webinar**\n\n**From Automation to Autonomy: Agentic AI Workflows for Mid-Market Efficiency**\n\n🔗 Register Now! https://attendee.gotowebinar.com/register/3639719296842727768?source=MG",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316453620",
-    "registration_url": "https://www.meetup.com/amazon-web-services-aws-meetup-by-cloud-in-pune/events/316453620/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602041Z"
-  },
-  {
-    "title": "Quantum Gates & Usage",
-    "event_url": "https://www.meetup.com/mumbai-quantum-computing-group/events/316224993/",
-    "date_time": "2026-09-19T14:00:00+05:30",
-    "organizer": "Mumbai Quantum Computing Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/d/9/f/highres_535776255.jpeg",
-    "description": "**Ready to move from Quantum Theory to Quantum Code?**\n\nIn classical computing, logic gates drive everything from microprocessors to neural networks. In the quantum realm, Quantum Gates are the foundational tools that allow us to manipulate superposition, create entanglement, and run ground-breaking algorithms.\nIf you want to understand how quantum programs are actually constructed, this session is built for you.\n\nThe Mumbai Quantum Computing Group invites you to our upcoming live deep dive: **\"Quantum Gates and Usage.\"** We’ll demystify single and multi-qubit gates, unpack circuit design, and explore how these building blocks power real-world quantum applications.\n\n**📅 Save the Date:**\n🗓️ Date: Saturday, 19th September 2026\n⏰ Time: 2:00 PM – 3:00 PM IST\n📍 Mode: Online (via Google Meet)\n\n**In 60 minutes, we’ll cover:**\n✅ Single-Qubit Gates (Pauli X/Y/Z, Hadamard, Phase) & Bloch Sphere rotations\n✅ Multi-Qubit Gates (CNOT, CZ) & creating Entanglement\n✅ How gates combine to form functional Quantum Circuits\n✅ Live interactive Q&A\n\nWhether you're a developer, researcher, student, or deep-tech enthusiast looking to expand your skill set, this session will give you a clear, actionable foundation.\n\n🎟️ Slots are limited to keep the Q&A interactive— *RVSP now* to grab your spot!\n\n#QuantumComputing #QuantumGates #Qiskit #DeepTech #QuantumCircuits #SoftwareEngineering #TechEvents #MumbaiTech #Webinar",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316224993",
-    "registration_url": "https://www.meetup.com/mumbai-quantum-computing-group/events/316224993/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "DSA & Competitive Programming"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602050Z"
-  },
-  {
-    "title": "Google Agents in Production for Enterprises (Virtual) - Ep 1",
-    "event_url": "https://www.meetup.com/bangalore-ai-tech-talks/events/315929219/",
-    "date_time": "2026-09-22T22:30:00+05:30",
-    "organizer": "Bangalore AI Developers Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/4/0/1/d/highres_535156413.jpeg",
-    "description": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026081110) to receive the joining link. (rsvp on meetup will NOT receive anything).\n\nThis is virtual event for our AI global community, please double-check your local time. Can't make it live? Register anyway to receive the webinar recording.\n\nBrought to you by Google Cloud and AICamp, Agents in Production for Enterprises is a global event series designed for organizations ready to move beyond AI experimentation and into production reality. This series brings together Google Cloud engineers, partner architects, and enterprise practitioners to tackle the real-world challenges of building and deploying agentic AI at scale.\n\n**What to Expect:**\n\n* ▶️ Deep-Dive Talk: Strategic insights from Google Cloud engineers and partner architects on enterprise-grade AI architectures\n* 💻 Live Demo: See production-ready agentic AI in action across real enterprise scenarios\n* 🛠️ Hands-On Code Labs: Build and deploy agentic workflows with guided, code-first labs\n* 🤝 Community & Networking: Connect with peers, speakers, and tech leaders solving the same challenges you face\n\n**Venue:**\nVirtual, join from anywhere\n\n**More virtual sessions:**\n\n* Aug 20th: NVIDIA Flare Webinar Q3. [RSVP](https://www.aicamp.ai/event/eventdetails/W2026082010)\n* Aug 25th: Google Agents in Production for Enterprises (#2). [RSVP](https://www.aicamp.ai/event/eventdetails/W2026082501)\n* Sep 2nd: AI Deep Dive with Google Ep 3. [RSVP](https://www.aicamp.ai/event/eventdetails/W2026090210)",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "315929219",
-    "registration_url": "https://www.meetup.com/bangalore-ai-tech-talks/events/315929219/",
+    "source_event_id": "316267631",
+    "registration_url": "https://www.meetup.com/awsaimlindia/events/316267631/",
     "is_technical": true,
     "categories": [
       "Artificial Intelligence & Machine Learning",
       "Cloud & DevOps"
     ],
-    "scraped_at": "2026-09-08T08:18:56.602065Z"
+    "scraped_at": "2026-09-13T09:51:25.591355Z"
   },
   {
-    "title": "[FREE]-Decision Velocity in the Age of AI",
-    "event_url": "https://www.meetup.com/agilewow/events/316397110/",
-    "date_time": "2026-09-08T20:00:00+05:30",
-    "organizer": "AgileWoW",
+    "title": "From Curiosity to Career | A Beginner’s Guide to DevOps",
+    "event_url": "https://www.meetup.com/aws-sbg-at-sanjeevan-group-of-institutions-panhala/events/316524335/",
+    "date_time": "2026-09-16T19:00:00+05:30",
+    "organizer": "AWS SBG at Sanjeevan Group of Institutions, Panhala",
     "source": "meetup",
     "mode_location": "Online",
     "city": null,
     "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/0/a/a/highres_535969322.jpeg",
-    "description": "AI is making it easier than ever to move fast—but is faster decision-making actually creating better outcomes?\nIn this conversation, Joel Bancroft-Connors, The Gorilla Coach, explores Decision Velocity and why organizations need to rethink how decisions move through complex systems before AI accelerates the problem.\n\nWatch more FREE learning resources - https://www.youtube.com/@agilewow?sub_confirmation=1\n\nJoin the WhatsApp group for regular updates - https://chat.whatsapp.com/Gc5yep9PLnT1SLoAwzZusJ\n\nVisit our websites for FREE learning resources -\nhttps://aidevdayindia.org/\nhttps://agileleadershipdayindia.org/\nhttps://scrumdayindia.org/\nhttps://productleadersdayindia.org/\n\nAgile already ran this experiment.\n\nTeams learned to move faster—but if the underlying decision-making process was broken, they simply failed faster.\nIn this episode, we explore what happens when organizations bring AI into those same systems.\n\nIn this conversation:\n⚡ What is Decision Velocity—and what isn't it?\n🔄 What six sign-offs and seven handoffs reveal about organizational decision-making\n🚀 What Agile taught us about speeding up broken processes\n🤖 Why AI adoption could amplify inefficient decision-making\n🏢 How bureaucracy, approvals and handoffs slow organizations down\n🧠 Why decision speed isn't the same as organizational progress\n🎯 What leaders can do differently before AI scales the problem\n\nThe big question is not:\n“How fast can AI help us decide?”\n\nIt's:\n“Can our organization make a decision once—and keep it decided?”\nIf you're working in Agile, AI transformation, digital transformation, product management, leadership, organizational change, innovation or enterprise transformation, this conversation offers a practical way to think about the next phase of AI adoption.\n\n🎙️ About Joel Bancroft-Connors\nJoel Bancroft-Connors, known as The Gorilla Coach, brings an Agile and organizational perspective to the conversation, challenging leaders to look beyond frameworks and examine the systems in which decisions actually happen.\n\n🎙️ New to streaming or looking to level up? Check out StreamYard and get ₹740 discount! 😍 https://streamyard.com/pal/d/4677736849604608",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/e/6/3/9/highres_536098937.jpeg",
+    "description": "## From Curiosity to Career \\| A Beginner’s Guide to DevOps\n\nJoin us for a beginner-friendly expert session on **DevOps**, where we’ll explore what DevOps is, how to get started, and how to build a career in the field.\n🎤 **Speaker:** Divyanshu Mishra\n**Lead DevOps Engineer — Eastern Enterprise**\n**Organizer — OpenSearch Project Delhi**\n\n### 📅 Event Details\n\n**Date:** 16 September 2026\n**Time:** 7:00 PM IST onwards\n**Mode:** Online — Google Meet\n\n### 🚀 What You’ll Learn\n\n* What is DevOps and why it matters\n* A practical roadmap to get started\n* Essential skills and tools to focus on\n* How to build a strong DevOps profile\n* How to prepare for DevOps job opportunities\n* Real-world insights and career guidance\n\n### 👥 Organized By\n\n**AWS Student Builder Group at Sanjeevan Group of Institutions, Panhala**\n**Host:** Omkar Bhete\nOpen to all students interested in **DevOps, Cloud Computing, and Technology**.\nCome learn, connect, and take your first step toward a career in DevOps! 🚀",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "316397110",
-    "registration_url": "https://www.meetup.com/agilewow/events/316397110/",
+    "source_event_id": "316524335",
+    "registration_url": "https://www.meetup.com/aws-sbg-at-sanjeevan-group-of-institutions-panhala/events/316524335/",
     "is_technical": true,
     "categories": [
-      "Artificial Intelligence & Machine Learning"
+      "Cloud & DevOps"
     ],
-    "scraped_at": "2026-09-08T08:18:56.602074Z"
+    "scraped_at": "2026-09-13T09:51:25.591429Z"
   },
   {
-    "title": "Orchestrate Everything: Online Data Engineering Conference",
-    "event_url": "https://www.meetup.com/bangalore-apache-airflow-meetup/events/315713007/",
-    "date_time": "2026-09-16T20:30:00+05:30",
-    "organizer": "Bangalore Apache Airflow Meetup",
+    "title": "SRE KL <> Docker KL - Sept Meetup",
+    "event_url": "https://www.meetup.com/sre-kuala-lumpur/events/316469422/",
+    "date_time": "2026-09-15T19:00:00+08:00",
+    "organizer": "SRE Kuala Lumpur",
     "source": "meetup",
     "mode_location": "Online",
     "city": null,
     "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/7/8/2/highres_535234690.jpeg",
-    "description": "***YOU MUST [REGISTER HERE TO ATTEND](https://www.astronomer.io/events/orchestrate-everything/?utm_source=conference&utm_medium=community&utm_campaign=orchestrate-everything-7-26). REGISTERING ON THIS PAGE WILL NOT GRANT YOU ACCESS TO THIS EVENT.***\n\n**ETL was the beginning, but orchestration continues to evolve. Hear first-hand from data engineers at leading companies shipping production AI workflows on Airflow.**\n\nJoin us September 16 for production stories from engineering leaders who've done it, learn hands-on tips for doing the same, and get a first look at where orchestration is going next.\n\n**What to Expect**\n\n* **Real Orchestration Stories:** Hear from engineering teams running AI in production. No pilots, no prototypes.\n* **Practical Orchestration Patterns:** Learn practical orchestration patterns: from MLOps and AI inference to context engineering and what's coming next.\n* **See What’s Next:** Get a first look at what's new from Astronomer including features built for AI workloads at scale.\n\n**Get AI Certified with Airflow**\nJoin Airflow expert Marc Lamberti, creator of Data with Marc, for a preparation crash course for the New Astronomer Certified AI Orchestration Fundamentals exam. Get your questions answered live, plus you'll get a discount code to take the certification for free ($150 value).\n\n**[See Additional Speakers & Sessions on the Event Page](https://www.astronomer.io/events/orchestrate-everything/?utm_source=conference&utm_medium=community&utm_campaign=orchestrate-everything-7-26)**\n\n***YOU MUST [REGISTER HERE TO ATTEND](https://www.astronomer.io/events/orchestrate-everything/?utm_source=conference&utm_medium=community&utm_campaign=orchestrate-everything-7-26). REGISTERING ON THIS PAGE WILL NOT GRANT YOU ACCESS TO THIS EVENT.***",
+    "poster_image_url": "https://secure.meetupstatic.com/photos/event/2/e/9/6/highres_536051926.jpeg",
+    "description": "**SRE Kuala Lumpur × Docker Kuala Lumpur – September Meetup**\n\nJoin us for an online meetup where we dive into production-grade AI agents and observability challenges you've definitely faced.\n\n**📅 15 September 2026 (Wednesday)**\n**⏰ 6:00 PM**\n**🌐 Online (Google Meet)**\n___________________________________________________________________\n**🎤 Featured Speakers:**\n**Ahmed Zidan**\nSenior Site Reliability Engineer, XSOLLA\n\n**TS. Shah Hassan**\nSenior Cloud Engineering, Fintech Service Provider\n___________________________________________________________________\n**🗣️ What We're Discussing:**\n**Talk 1:** AI Agents in Production – Building and Running Agents on k8s with kagent\nHow to deploy AI agents reliably at scale\n\n**Talk 2:** We Had 7 Monitoring Tools and Still Couldn't Explain the Incident\nWhy observability is harder than you think\n___________________________________________________________________\n**Why attend?**\n✓ Learn from practitioners solving real infrastructure challenges\n✓ Network with the SRE & DevOps community\n✓ Free & online - no commute required",
     "is_free": true,
     "price_amount": null,
     "price_currency": null,
-    "source_event_id": "315713007",
-    "registration_url": "https://www.meetup.com/bangalore-apache-airflow-meetup/events/315713007/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602082Z"
-  },
-  {
-    "title": "MCP - From Conversation to Action",
-    "event_url": "https://www.meetup.com/polyglot-languages-runtimes-java-jvm-nodejs-swift/events/316382479/",
-    "date_time": "2026-09-23T16:30:00+05:30",
-    "organizer": "Polyglot Languages & Runtimes (Java, Cloud & AI...)",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": null,
-    "description": "Title : MCP - From Conversation to Action\n\nAbstract : This session explores how the Model Context Protocol is helping AI move beyond conversations and interact with the tools, data, and systems that power real-world work. The talk introduces MCP, explains why a common interface matters, and looks at how it enables AI applications and agents to securely discover and use external capabilities. It also explores the challenges that emerge when AI moves from simply answering questions to taking actions—including trust, permissions, security, and human oversight.\n\nSpeaker Bio : Rishabh began his product development journey at Infosys in 2011 and has since built enterprise products across organisations including Dassault Systèmes, Bosch, Oracle, and IBM Labs. With experience spanning payments, banking, PLM, BPM, and other enterprise domains, he is a Java developer and passionate problem-solver who enjoys building, improving, and exploring new challenges.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316382479",
-    "registration_url": "https://www.meetup.com/polyglot-languages-runtimes-java-jvm-nodejs-swift/events/316382479/",
+    "source_event_id": "316469422",
+    "registration_url": "https://www.meetup.com/sre-kuala-lumpur/events/316469422/",
     "is_technical": true,
     "categories": [
       "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
+      "Cloud & DevOps"
     ],
-    "scraped_at": "2026-09-08T08:18:56.602089Z"
-  },
-  {
-    "title": "Build Your First AI Agent – Bengaluru - No Code, Just Execution",
-    "event_url": "https://www.meetup.com/bengaluru-ai-agent-builders-community/events/316381479/",
-    "date_time": "2026-09-12T10:00:00+05:30",
-    "organizer": "Bengaluru AI Agent Builders Community",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/7/5/f/highres_535801887.jpeg",
-    "description": "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 **Bengaluru** 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗕𝘂𝗶𝗹𝗱𝗲𝗿𝘀!\n💡 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗕𝗼𝘁𝗖𝗮𝗺𝗽𝘂𝘀 𝗔𝗜 — where AI meets action.\n📅 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆\n⏰ **10:00 AM 𝗜𝗦𝗧**\n⏱️ 𝟮 𝗛𝗼𝘂𝗿 𝗛𝗮𝗻𝗱𝘀-𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽\n\n📌 𝗝𝗼𝗶𝗻 𝘁𝗵𝗲 𝗟𝗜𝗩𝗘 𝘀𝗲𝘀𝘀𝗶𝗼𝗻:\n[https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw](https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw)\n\n🤖 𝗕𝘂𝗶𝗹𝗱 𝗬𝗼𝘂𝗿 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗶𝗻 𝟯𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\nThis Bengaluru community is for developers, tech professionals, entrepreneurs, creators and anyone who wants to move beyond ChatGPT prompts and start building real AI Agents.\n🛠️ 𝗜𝗻 𝘁𝗵𝗲 𝘄𝗼𝗿𝗸𝘀𝗵𝗼𝗽, 𝘄𝗲’𝗹𝗹 𝗯𝘂𝗶𝗹𝗱 𝗮𝗻𝗱 𝗲𝘅𝗽𝗹𝗼𝗿𝗲:\n• 🧩 Claude Code — Build, debug & ship AI applications\n• 🎨 Claude Design — Create AI-powered interfaces\n• 🔗 MCP — Connect agents to tools, APIs & data\n• 📚 RAG — Give your AI Agent real knowledge\n• 💡 Real-world AI Agent use cases\n𝗡𝗼 𝗹𝗼𝗻𝗴 𝘁𝗵𝗲𝗼𝗿𝘆. 𝗡𝗼 𝗰𝗼𝗺𝗽𝗹𝗶𝗰𝗮𝘁𝗲𝗱 𝗰𝗼𝗱𝗶𝗻𝗴. 𝗪𝗲 𝗯𝘂𝗶𝗹𝗱 𝗶𝘁 𝗹𝗶𝘃𝗲.\n👨‍🏫 𝗟𝗲𝗱 𝗯𝘆 𝗔𝗯𝗱𝘂𝗹𝗹𝗮𝗵 𝗞𝗵𝗮𝗻 — Microsoft Certified Trainer & Architect, with 50,000+ professionals trained globally.\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗮𝗯𝗼𝘂𝘁:\n⚡ Practical AI Agent learning\n🛠️ Hands-on building\n📦 Templates, resources & workflows\n🤝 Bengaluru AI builder community\n🎯 Live workshops, demos & special sessions\n𝗧𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝗔𝗜 𝗴𝗿𝗼𝘂𝗽.\n\n𝗜𝘁’𝘀 𝗮 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗳𝗼𝗿 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗯𝘂𝗶𝗹𝗱.\n\n𝗟𝗲𝘁’𝘀 𝗯𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 — 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316381479",
-    "registration_url": "https://www.meetup.com/bengaluru-ai-agent-builders-community/events/316381479/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602098Z"
+    "scraped_at": "2026-09-13T09:51:25.591502Z"
   },
   {
     "title": "Introduction to Qiskit Programming",
@@ -816,307 +360,6 @@
       "DSA & Competitive Programming",
       "Software & Web Development"
     ],
-    "scraped_at": "2026-09-08T08:18:56.602107Z"
-  },
-  {
-    "title": "Build Your First AI Agent – No Code, Just Execution",
-    "event_url": "https://www.meetup.com/bengaluru-ai-agent-builders-community/events/316418262/",
-    "date_time": "2026-09-12T10:00:00+05:30",
-    "organizer": "Bengaluru AI Agent Builders Community",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/f/0/highres_535802288.jpeg",
-    "description": "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 **Chennai** 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗕𝘂𝗶𝗹𝗱𝗲𝗿𝘀!\n\n💡 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗕𝗼𝘁𝗖𝗮𝗺𝗽𝘂𝘀 𝗔𝗜 — where AI meets action.\n📅 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆\n⏰ **10:𝟬𝟬 AM 𝗜𝗦𝗧**\n⏱️ 𝟮 𝗛𝗼𝘂𝗿 𝗛𝗮𝗻𝗱𝘀-𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽\n📌 𝗝𝗼𝗶𝗻 𝘁𝗵𝗲 𝗟𝗜𝗩𝗘 𝘀𝗲𝘀𝘀𝗶𝗼𝗻:\n[https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw](https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw)\n\n🤖 𝗕𝘂𝗶𝗹𝗱 𝗬𝗼𝘂𝗿 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗶𝗻 𝟯𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\nThis Bengaluru community is for developers, tech professionals, entrepreneurs, creators and anyone who wants to move beyond ChatGPT prompts and start building real AI Agents.\n\n🛠️ 𝗜𝗻 𝘁𝗵𝗲 𝘄𝗼𝗿𝗸𝘀𝗵𝗼𝗽, 𝘄𝗲’𝗹𝗹 𝗯𝘂𝗶𝗹𝗱 𝗮𝗻𝗱 𝗲𝘅𝗽𝗹𝗼𝗿𝗲:\n• 🧩 Claude Code — Build, debug & ship AI applications\n• 🎨 Claude Design — Create AI-powered interfaces\n• 🔗 MCP — Connect agents to tools, APIs & data\n• 📚 RAG — Give your AI Agent real knowledge\n• 💡 Real-world AI Agent use cases\n\n𝗡𝗼 𝗹𝗼𝗻𝗴 𝘁𝗵𝗲𝗼𝗿𝘆. 𝗡𝗼 𝗰𝗼𝗺𝗽𝗹𝗶𝗰𝗮𝘁𝗲𝗱 𝗰𝗼𝗱𝗶𝗻𝗴. 𝗪𝗲 𝗯𝘂𝗶𝗹𝗱 𝗶𝘁 𝗹𝗶𝘃𝗲.\n👨‍🏫 𝗟𝗲𝗱 𝗯𝘆 𝗔𝗯𝗱𝘂𝗹𝗹𝗮𝗵 𝗞𝗵𝗮𝗻 — Microsoft Certified Trainer & Architect, with 50,000+ professionals trained globally.\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗮𝗯𝗼𝘂𝘁:\n⚡ Practical AI Agent learning\n🛠️ Hands-on building\n📦 Templates, resources & workflows\n🤝 Bengaluru AI builder community\n🎯 Live workshops, demos & special sessions\n𝗧𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝗔𝗜 𝗴𝗿𝗼𝘂𝗽.\n𝗜𝘁’𝘀 𝗮 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗳𝗼𝗿 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗯𝘂𝗶𝗹𝗱.\n𝗟𝗲𝘁’𝘀 𝗯𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 — 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316418262",
-    "registration_url": "https://www.meetup.com/bengaluru-ai-agent-builders-community/events/316418262/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602114Z"
-  },
-  {
-    "title": "Microsoft Fabric : Securing Direct Lake - Fixed Identity and RLS [NDAC Event]",
-    "event_url": "https://www.meetup.com/nextgen-data-aspirants-community/events/316397154/",
-    "date_time": "2026-09-12T18:00:00+05:30",
-    "organizer": "NextGen Data Aspirants Community",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/1/2/7/highres_535969447.jpeg",
-    "description": "The NextGen Data Aspirants Community (NDAC) is excited to bring you another insightful knowledge-sharing session designed for data professionals, learners, and enthusiasts.\n\n🎯 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 𝐓𝐨𝐩𝐢𝐜: Securing Direct Lake: Fixed Identity and RLS\n\n👩‍🏫 Speaker: Shubham Rai – 𝑭𝒂𝒃𝒓𝒊𝒄 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚 𝑺𝒖𝒑𝒆𝒓 𝑼𝒔𝒆𝒓\n\n📅 Date: 12 Sep 2026 (Saturday)\n⏰ Time: 06:00 PM IST\n🌐 Mode: Virtual\n⏱ Duration: 1 Hour\n\nSession Abstract: Direct Lake makes it possible to build high-performance semantic models directly on Fabric data, but securing that architecture requires understanding how identity, permissions, and RLS work together. In this hands-on session, we will build a Direct Lake semantic model using Fixed Identity, configure Row-Level Security, and walk through what actually happens when different users access the report. We will also explore the architecture behind the semantic model, OneLake, and user access, with practical demos you can apply to your own Fabric environment.\n\nThis session is perfect for Data Engineers, Data Analysts, BI Professionals, Business Users, and Students who want to understand the future of AI-powered analytics.\n\n📲𝑱𝒐𝒊𝒏 𝒕𝒉𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑳𝒊𝒏𝒌: [https://whatsapp.com/channel/0029VbB2EH33AzNVJEyA6L0r](https://whatsapp.com/channel/0029VbB2EH33AzNVJEyA6L0r)\n📲𝑱𝒐𝒊𝒏 𝒕𝒉𝒆 𝑾𝒉𝒂𝒕𝒔𝑨𝒑𝒑 𝑮𝒓𝒐𝒖𝒑 𝒇𝒐𝒓 𝒆𝒗𝒆𝒏𝒕 𝒖𝒑𝒅𝒂𝒕𝒆𝒔 & 𝒍𝒊𝒏𝒌: [https://chat.whatsapp.com/GsFHmy20g7GA7c7xzEWBVB](https://chat.whatsapp.com/GsFHmy20g7GA7c7xzEWBVB)\n📲𝑭𝒐𝒍𝒍𝒐𝒘 𝒖𝒔 𝒂𝒕 𝑳𝒊𝒏𝒌𝒆𝒅𝑰𝒏 : [https://www.linkedin.com/company/nextgen-data-aspirants-community/](https://www.linkedin.com/company/nextgen-data-aspirants-community/)\n\nLet’s come together to Explore, Learn, and Innovate with the Data Community! 🌍📊",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316397154",
-    "registration_url": "https://www.meetup.com/nextgen-data-aspirants-community/events/316397154/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602122Z"
-  },
-  {
-    "title": "Agentic QA Intro Session",
-    "event_url": "https://www.meetup.com/lead-with-tech-meetup-group/events/316136599/",
-    "date_time": "2026-09-08T20:00:00+05:30",
-    "organizer": "Lead With Tech Meetup Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/7/a/7/0/highres_535291344.jpeg",
-    "description": "**FREE RSVP. PAID WORKSHOP.**\nRSVP on Meetup to register your interest at no cost. Payment is required to confirm your seat and attend the workshop. We will follow up with everyone who RSVPs, or you can pay now using the appropriate link below.\n\n**IN-PERSON, BANGALORE: ₹3,499**\nFull-day workshop. Lunch, refreshments, and goodies included.\nPay and confirm your seat: https://u.payu.in/PAYUMN/QJ89UAmwQ6PN\n\n**ONLINE: ₹1,999 EARLY BIRD**\nOnly 5 early-bird spots. Almost full.\nPay and confirm your seat: https://u.payu.in/PAYUMN/rrh2npHHj2iM\nAfter payment, the LWT team will share your confirmation and the relevant venue or joining details. A free Meetup RSVP alone does not reserve a workshop seat.\n\nManual test design and brittle scripts can't keep pace with AI-accelerated delivery. The future of QA isn't writing more test cases. It's directing agents that generate, execute, and maintain them for you.\n\n**THE REALITY**\nAI doesn't replace the tester. It amplifies the one who knows how to instruct it. QA professionals who learn to engineer agentic test workflows become the most valuable people on the delivery team.\n\n**WHAT YOU WILL LEARN**\n• Apply the 5W Framework to generate high-coverage test scenarios from requirements\n• Build agents that author, run, and triage automated tests\n• Use AI to catch edge cases and hallucinated defects before they reach production\n• Integrate agentic testing into an Agentic SDLC pipeline\n• Hands-on labs: transform a real test suite using AI agents\n\n**WHO SHOULD ATTEND**\nQA engineers, SDETs, and test leads who want to lead the shift to AI-infused quality.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316136599",
-    "registration_url": "https://www.meetup.com/lead-with-tech-meetup-group/events/316136599/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Open Source & Hackathons"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602129Z"
-  },
-  {
-    "title": "Handling Real Time data in Fabric Eventhouse",
-    "event_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316208737/",
-    "date_time": "2026-09-19T10:00:00+05:30",
-    "organizer": "Microsoft Fabric User Group Pune",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/5/4/6/1/highres_535761601.jpeg",
-    "description": "**Event Details:**\n\n* **Date:** 19 September\n* **Time:** 10:00 AM IST\n* **Speaker:** Naveen Nagar \\| [LinkedIn Profile](https://www.linkedin.com/in/naveen-nagar-01108730/)\n\n**About the Event:** In today's data-driven world, organizations increasingly need to make sense of high-volume, fast-moving data - sensor telemetry, clickstreams, transactions, and logs - before the opportunity to act on it passes. Join us for this technical meetup as we explore Fabric Eventhouse, Microsoft Fabric's purpose-built engine for real-time analytics. This session will move beyond traditional batch pipelines to demonstrate a modern, low-latency data architecture where streaming data is captured, indexed, and made queryable within seconds. We will walk through a complete real-time data flow - from a live streaming source, into Eventhouse, and out to every consuming engine in Fabric via OneLake - without data duplication or performance trade-offs.\n**What we will cover:**\n\n* **Architecture:** An end-to-end walkthrough of a real-time pipeline built on Fabric Eventstream, Eventhouse, and OneLake.\n* **Eventstream & Ingestion:** How Eventstream captures, transforms, and routes streaming events from sources such as Azure Event Hub, IoT Hub, and CDC connectors into Eventhouse.\n* **Eventhouse & KQL Database:** How KQL databases automatically index and time-partition data on arrival, and how update policies and materialized views enrich and aggregate data as it lands.\n* **OneLake Availability:** How a single copy of streaming data becomes instantly available to Power BI, Warehouses, Notebooks, and Lakehouses through OneLake, eliminating the need for separate ETL copies.\n* **Live Demo:** A practical, live walkthrough showing data flow from a streaming source, through Eventstream, into Eventhouse, out to OneLake, and into a live Power BI report in near real-time.\n\n**This session is designed for:**\n\n* Data Engineers & Architects working with streaming data\n* Power BI Developers & Fabric Users\n* Analytics teams building real-time or near-real-time dashboards\n* Anyone evaluating Microsoft Fabric's Real-Time Intelligence capabilities",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316208737",
-    "registration_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316208737/",
-    "is_technical": true,
-    "categories": [
-      "Cloud & DevOps",
-      "Data & Databases",
-      "Emerging Tech & Hardware"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602138Z"
-  },
-  {
-    "title": "AIConnect: Global Virtual Job & Career Networking Event for AI Specialists",
-    "event_url": "https://www.meetup.com/ai-del/events/314195655/",
-    "date_time": "2026-09-11T19:30:00+05:30",
-    "organizer": "Delhi NCR AI & Data Science Community — AI.Bharath.CLUB",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/a/1/4/e/highres_527141294.jpeg",
-    "description": "Are you an AI engineer, data scientist, machine learning researcher, or aspiring innovator in the world of artificial intelligence? **AIConnect** is your dynamic **AI networking event online** designed to foster real-time conversations, career growth, and collaboration opportunities — all within a vibrant and self-led virtual space.\n\nWhether you're exploring job roles in AI, hoping to demo your latest project, or searching for your next co-developer or data scientist partner, **AIConnect** offers a one-of-a-kind experience to connect with the global **machine learning community meetup** — anytime, from anywhere.\n\n🎥 **Watch how it works in our explainer video:**\n👉 [https://www.youtube.com/watch?v=bH3uNrkUTuw](https://www.youtube.com/watch?v=bH3uNrkUTuw)\n\n**💡 Why Join AIConnect?**\n\nThis is not just another virtual event. It’s a **collaboration platform for AI specialists** where you can grow your professional network, showcase your AI/ML portfolio, exchange ideas, and chat directly with fellow participants, recruiters, and service providers.\nDesigned for **AI career fair virtual** seekers and builders alike, the platform supports live 1-1 **video or text chats**, and offers open access to diverse community-led channels tailored to your interests.\n\n**💬 Brainstorming & Discussion Channels Include:**\n\n* **General** – Your go-to hub for announcements, orientation, and casual community-wide conversation.\n* **Intros** – Introduce yourself, your research, your startup, or just share your journey in AI.\n* **Networking** – Showcase your AI/ML projects, portfolios, startup pitches, or job aspirations.\n* **Help Wanted** – Looking for team members, mentorship, freelance gigs, or offering support? Post here.\n* **Industry Room Tech** – Dive into the latest developments in AI frameworks, ML pipelines, data tools, and tech trends.\n\nWhether you’re a beginner or a pro, a researcher or a recruiter — this space empowers growth through **project demos, career discussions, and research conversations.**\n\n**🧠 What You’ll Gain:**\n\n* Direct access to a **global AI talent and hiring ecosystem**\n* Exposure to cutting-edge projects via the **AI project showcase event**\n* Connections with peers and thought leaders across AI, ML, and data science\n* Career insights and opportunities from fellow professionals and employers\n* A flexible environment to network, brainstorm, and build meaningful collaborations\n* Instant 1-on-1 video or text chats for deeper engagement\n\n**📍 Where:**\nJoin virtually at:\n👉 [https://events.tao.ai/pod/ai.bharath.club/jknf0o9m3kix](https://events.tao.ai/pod/ai.bharath.club/jknf0o9m3kix)\n**🕔 When:**\nEvery session starts at **5:00 PM – 7:00 PM local time** — recurring monthly on Fridays. Mark your calendar and come prepared to connect!\n\n**👥 Who Should Attend:**\n\n* AI engineers, ML developers, and data scientists\n* Startup founders and entrepreneurs in the AI/tech space\n* Recruiters, hiring managers, and project collaborators\n* Students, academics, and early-career professionals\n* Anyone passionate about AI, machine learning, and applied tech innovation\n\n**📩 Questions or Suggestions?**\nWe’d love to hear from you. Reach us anytime here:\n👉 [https://noworkerleftbehind.org/event_support](https://noworkerleftbehind.org/event_support)\n\n**🔖 Hashtags:**\n#AIConnect #AINetworkingEventOnline #AICareerFairVirtual #MachineLearningCommunityMeetup #AIProjectShowcaseEvent #CollaborationPlatformForAISpecialists #MLJobs #GlobalAINetworking #TechNetworkingEvent #AIProfessionalsUnite",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "314195655",
-    "registration_url": "https://www.meetup.com/ai-del/events/314195655/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602153Z"
-  },
-  {
-    "title": "Build an Agentic Invoice Verification Process with UiPath Maestro Flow",
-    "event_url": "https://www.meetup.com/agentic-ai-community-hyderabad/events/316416138/",
-    "date_time": "2026-09-19T10:00:00+05:30",
-    "organizer": "Agentic AI Community Hyderabad",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/d/b/highres_535983291.jpeg",
-    "description": "**WHAT IS THIS VIRTUAL WORKSHOP IS ABOUT?**\nUiPath Maestro Flow lets you orchestrate multiple automations, AI agents, and human decision points as one connected process — with full visibility into where a case is at any moment. Instead of just automating a task, you're orchestrating an entire business outcome. This session is your chance to build that kind of process yourself, step by step.\n\n**WHAT WE'LL DO DURING THE SESSION**\n\n* Working in UiPath Maestro Flow, you'll design and configure a live process that:\n* Triggers automatically when an invoice email arrives\n* Extracts and transforms the invoice data\n* Queries Purchase Order records to validate the invoice against the matching PO\n* Branches based on whether the vendor name matches — routing to the right next step automatically\n* Hands off to an AI agent to investigate discrepancies, or to a second AI agent to research an unfamiliar vendor name\n* Inserts a human review checkpoint for cases that need a judgment call\n* Auto-drafts a response and sends it back to the vendor/requester — closing the loop without manual effort\n\nYou'll configure each stage yourself in UiPath Maestro Flow, connect the agents and human task into the flow, and test it against real sample scenarios (matching vendor, mismatched vendor, valid alias, invalid vendor).\n\n**WHAT YOU'LL WALK AWAY WITH**\nBy the end of the session, you'll have built a working, end-to-end agentic process in UiPath Maestro Flow that autonomously verifies invoices against purchase orders, brings in AI agents for judgment-heavy steps, escalates to a human only when needed, and auto-responds — all orchestrated and trackable.\nYou'll also leave with a reusable pattern you can apply to any similar exception-handling process in your own environment.\n\nJoin us to explore the newest capabilities🚀",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316416138",
-    "registration_url": "https://www.meetup.com/agentic-ai-community-hyderabad/events/316416138/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602160Z"
-  },
-  {
-    "title": "Join Biggest Tech Community | Developers, Founders & Mentors",
-    "event_url": "https://www.meetup.com/aicommunity/events/315625512/",
-    "date_time": "2026-09-12T11:00:00+04:00",
-    "organizer": "MENA AI and Data Community",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/8/b/6/c/highres_534995692.jpeg",
-    "description": "Join developers, founders, mentors, and investors in a **high-energy tech meetup** where ideas turn into real products.\n\n✨ **What’s inside?**\n⚡ Lightning AI & product demos (5-minute power sessions)\n🤝 Curated networking by domain & skill level\n💡 Founder × Investor rapid feedback & warm intros\n💼 Jobs & collaboration opportunities\n🔥 Special spotlight: AI Residency + 8-Day AI App Challenge launch\n\n🎯 **Who should join?**\nDevelopers, Data Scientists, Founders, Operators, and Investors ready to build, collaborate, and grow.\nLeave with connections, opportunities, and action steps.\n\nDon’t miss out — this is where builders meet builders.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "315625512",
-    "registration_url": "https://www.meetup.com/aicommunity/events/315625512/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Open Source & Hackathons"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602168Z"
-  },
-  {
-    "title": "AI Deep Dive Webinar - Taking LangGraph to production",
-    "event_url": "https://www.meetup.com/bangalore-ai-tech-talks/events/316397636/",
-    "date_time": "2026-09-24T22:30:00+05:30",
-    "organizer": "Bangalore AI Developers Group",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/c/3/0/6/highres_535969926.jpeg",
-    "description": "**Important**: Register on the [event website](https://www.aicamp.ai/event/eventdetails/W2026091710) to receive the joining link. (rsvp on meetup will NOT receive anything).\n\nThis is virtual event for our AI global community, please double-check your local time. Can't make it live? Register anyway to receive the webinar recording.\n\nJoin Diagrid to learn taking LangGraph to production\n\n**Tech Talk: Taking LangGraph to production**\n**Speaker:** Mark Fussell\\, Co\\-founder & CEO\\, Diagrid \\| Co\\-creator of Dapr\\. and Yaron Schneider\\, Co\\-founder & CTO\\, Diagrid \\| Co\\-creator of Dapr\n**Abstract:** In this session, Dapr co-creators Mark Fussell and Yaron Schneider draw the line between checkpointing and durable execution, show exactly where LangGraph's persistence stops, and kill a live LangGraph agent mid-run to show Diagrid Catalyst bring it back without any re-architecture or custom recovery code.\nYou'll walk away knowing:\n\n* How to make LangGraph agents failure-proof, even in the face of complete outages\n* How to keep a complete, tamper-proof system of record that proves what your agents did\n* How to secure LangGraph deployments in any environment and specifically on Kubernetes\n\n**Who should attend**\nEngineers and architects running or planning to run LangGraph agents, platform teams responsible for agent reliability, and engineering leaders deciding how much of the reliability stack to build themselves.\n\n**Venue:**\nVirtual, join from anywhere\n\n**More virtual sessions:**\n\n* Sep 22nd: Google Agents in Production for Enterprises (#1). [RSVP](https://www.aicamp.ai/event/eventdetails/W2026081110)\n* Oct 14th: AI Deep Dive with Google Ep 4. [RSVP](https://www.aicamp.ai/event/eventdetails/W2026101410)",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316397636",
-    "registration_url": "https://www.meetup.com/bangalore-ai-tech-talks/events/316397636/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602183Z"
-  },
-  {
-    "title": "How to build an agent-ready IDP with open source tools",
-    "event_url": "https://www.meetup.com/platform-engineers-bangalore/events/316368352/",
-    "date_time": "2026-09-22T22:30:00+05:30",
-    "organizer": "Platform Engineers Bangalore",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/d/f/c/e/highres_507717294.jpeg",
-    "description": "A portal is just a front door. The real complexity of an Internal Developer Platform (IDP) sits in the backend layer beneath it. As autonomous AI agents begin using your platform, traditional setups built only for human developers face immediate security gaps and operational bottlenecks. Join Sameera Jayasoma and Lakmal Warusawithana, maintainers of the CNCF OSS project OpenChoreo, as they show how to build an agent-ready platform without a multi-year custom build.\n\nIn this session, you will learn:\n- **Platform vs. portal:** Why a portal alone is not enough, and how owning the backend execution layer speeds up software delivery.\n- **Designing for AI agents:** How to give AI agents their own identities, limited access, and safety rules when interacting with your APIs, shifting your engineering team from working _inside_ the loop to _orchestrating_ it.\n- **Practical open source adoption:** How to use a modular architecture like OpenChoreo to connect the Kubernetes, CI/CD, and monitoring tools you already run, turning your existing tools into secure, agent-ready golden paths\n\nSpeaker: Sameera Jayasoma\nVP and Distinguished Engineer @ WSO2, OpenChoreo Maintainer\n\nSpeaker: Lakmal Warusawithana",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316368352",
-    "registration_url": "https://www.meetup.com/platform-engineers-bangalore/events/316368352/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps",
-      "Open Source & Hackathons",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602191Z"
-  },
-  {
-    "title": "Workforce Compliance and Time Fraud Detection reporting using PowerBI",
-    "event_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316430396/",
-    "date_time": "2026-09-26T10:00:00+05:30",
-    "organizer": "Microsoft Fabric User Group Pune",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/3/7/b/3/highres_535994259.jpeg",
-    "description": "#### Description\n\nMode: Online\nDate & Time: 26 Sept 10 AM IST\nManaging time and attendance across a global workforce requires organizations to balance regulatory compliance, corporate policies, and operational efficiency. Traditional approaches often rely on manual reviews and fragmented processes, making it difficult to consistently identify compliance risks and potentially fraudulent activities in a timely manner.\n\nThis session presents a real-world success story of a Machine Learning-powered Working Hours Alert System (WHAS) for modernizing workforce compliance monitoring and fraud detection. The solution analyzes time and attendance data to identify compliance risks, detect anomalous working-hour patterns that may indicate fraud, and recommend schedule adjustments aligned with labor laws and organizational policies.\n\nThe session focuses on the data and machine learning aspects of building an intelligent compliance monitoring solution. Attendees will learn how workforce data can be analyzed to identify meaningful patterns, design effective alerts, support anomaly detection, and enable proactive intervention. The discussion will also cover implementation considerations, transparency, human oversight, and lessons learned from deploying an AI-driven compliance solution in a global enterprise environment.\n\nBy connecting machine learning with enterprise workforce data, the presentation demonstrates how organizations can reduce manual effort, improve consistency in compliance monitoring, strengthen governance, and support more informed operational decisions. Attendees will gain practical perspectives they can apply when designing scalable data and analytics solutions for workforce compliance and operational integrity.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316430396",
-    "registration_url": "https://www.meetup.com/microsoft-fabric-user-group-pune/events/316430396/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602198Z"
-  },
-  {
-    "title": "Enterprise AI infrastructure in 2026: A reality check for platform engineers",
-    "event_url": "https://www.meetup.com/platform-engineers-bangalore/events/316100471/",
-    "date_time": "2026-09-17T22:30:00+05:30",
-    "organizer": "Platform Engineers Bangalore",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/d/f/c/e/highres_507717294.jpeg",
-    "description": "After two years of hype, many enterprises feel they’ve overspent on AI infrastructure without realizing the promised value.\nIn this session, Dan Ciruli, Kelsey Hightower, and Luca Galante cut through the buzzwords to show what enterprise AI infrastructure actually looks like in production.\n\nIn most cases, it is often less about training models from scratch and more about how platform engineering teams can fold AI inference and fine-tuning directly into their existing infrastructure.\n\n**Join the discussion to learn:**\n1. Why you don’t need infrastructure for training models from scratch, and how to start treating inference and fine-tuning just like serving standard web APIs.\n2. Strategies for folding AI workloads and autonomous agents into your existing heterogeneous environments (VMs + containers + legacy databases) without rebuilding everything.\n3. How to build an Agentic Development Platform (ADP) based on actionable reference architectures to deploy real-world AI applications.\n\nSpeaker: Kelsey Hightower\nRetired Distinguished Engineer, Google Cloud. Author, Investor, and Technical Advisor\n\nSpeaker: Dan Ciruli\nVP and General Manager, Cloud Native\n\nSpeaker: Luca Galante",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316100471",
-    "registration_url": "https://www.meetup.com/platform-engineers-bangalore/events/316100471/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Cloud & DevOps",
-      "Data & Databases",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602213Z"
-  },
-  {
-    "title": "Connect and Analyze Multi-Channels all in one platform",
-    "event_url": "https://www.meetup.com/cloudxlab/events/316151695/",
-    "date_time": "2026-09-10T20:00:00+05:30",
-    "organizer": "Big Data & AI",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/6/f/9/b/highres_535708571.jpeg",
-    "description": "Greetings Everyone,\n\nEvery organization runs on data - but that data rarely lives in one place.\nSales are stored in your database. Customer interactions live in your CRM. Marketing performance is spread across advertising platforms. Website behavior sits inside analytics tools. Finance, support, inventory, and operations each maintain their own systems.\nIndividually, these tools answer **what** happened.\n\nThe real challenge is understanding **why** it happened.\nQuestions such as:\n\n* Why did revenue decline despite higher website traffic?\n* Which marketing campaigns are bringing in customers who actually stay and spend?\n* Why are conversions dropping for one customer segment but improving for another?\n* Which operational bottlenecks are impacting customer satisfaction?\n* Where are we losing revenue without realizing it?\n\nFinding these answers usually means jumping between dashboards, exporting spreadsheets, writing SQL queries, and manually piecing together information from multiple systems - a process that can take hours or even days.\n\nIn this live webinar, we'll explore how modern AI is changing that.\n\nUsing real-world business scenarios, you'll see how AI can connect information across databases, analytics platforms, CRMs, advertising systems, ERPs, and other business tools to investigate complex questions that no single dashboard can answer on its own.\n\nRather than simply generating charts, AI can reason across multiple sources, identify hidden relationships, trace the chain of events behind business outcomes, and provide evidence-backed explanations.\n\n**What You'll See:**\n\n* How AI connects securely to multiple business data sources while preserving business context\n* A live investigation into a real business problem using data from several systems simultaneously\n* How AI identifies patterns and relationships that are difficult to uncover through traditional reporting\n* How business context improves the accuracy and relevance of AI-generated insights\n* A live demonstration where business questions are asked in plain English and investigated across multiple data sources in real time\n\n**Who Should Attend:**\n\n* Business leaders looking for faster, better decision-making\n* Marketing and growth teams trying to understand what truly drives revenue\n* Product, operations, and analytics teams working with data across multiple platforms\n* Data analysts and engineers interested in the next evolution of analytics\n* Anyone curious about how AI is transforming business intelligence and decision-making\n\n**What you will Learn:**\nYou'll discover how modern AI can work across the systems where your business data already exists - including databases, CRMs, analytics platforms, advertising tools, ERPs, and operational systems - to create a unified understanding of your organization.\n\nInstead of analyzing each platform independently, AI can investigate questions across multiple sources simultaneously, helping teams move beyond isolated metrics toward understanding cause and effect.\n\nBy the end of the session, you'll have a practical understanding of how organizations are using AI to reduce manual analysis, uncover hidden insights, investigate business problems more effectively, and make faster, more informed decisions.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316151695",
-    "registration_url": "https://www.meetup.com/cloudxlab/events/316151695/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Data & Databases"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602221Z"
-  },
-  {
-    "title": "Delhi - NCR - Build Your First AI Agent - No Code, Just Execution",
-    "event_url": "https://www.meetup.com/delhi-ncr-ai-agent-builders-community/events/316381554/",
-    "date_time": "2026-09-12T10:00:00+05:30",
-    "organizer": "Delhi - NCR - AI Agent Builders Community",
-    "source": "meetup",
-    "mode_location": "Online",
-    "city": null,
-    "country": null,
-    "poster_image_url": "https://secure.meetupstatic.com/photos/event/2/8/c/c/highres_535930444.jpeg",
-    "description": "# 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 **Delhi - NCR** 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗕𝘂𝗶𝗹𝗱𝗲𝗿𝘀!\n\n💡 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆 𝗕𝗼𝘁𝗖𝗮𝗺𝗽𝘂𝘀 𝗔𝗜 — where AI meets action.\n📅 𝗦𝗮𝘁𝘂𝗿𝗱𝗮𝘆\n⏰ **10:00 AM 𝗜𝗦𝗧**\n⏱️ 𝟮 𝗛𝗼𝘂𝗿 𝗛𝗮𝗻𝗱𝘀-𝗼𝗻 𝗪𝗼𝗿𝗸𝘀𝗵𝗼𝗽\n📌 𝗝𝗼𝗶𝗻 𝘁𝗵𝗲 𝗟𝗜𝗩𝗘 𝘀𝗲𝘀𝘀𝗶𝗼𝗻:\n[https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw](https://botcampus-ai.zoom.us/meeting/register/Q7EJ-5BbSdasZGMxNx5jdw)\n\n🤖 𝗕𝘂𝗶𝗹𝗱 𝗬𝗼𝘂𝗿 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 𝗶𝗻 𝟯𝟬 𝗠𝗶𝗻𝘂𝘁𝗲𝘀\nThis Bengaluru community is for developers, tech professionals, entrepreneurs, creators and anyone who wants to move beyond ChatGPT prompts and start building real AI Agents.\n🛠️ 𝗜𝗻 𝘁𝗵𝗲 𝘄𝗼𝗿𝗸𝘀𝗵𝗼𝗽, 𝘄𝗲’𝗹𝗹 𝗯𝘂𝗶𝗹𝗱 𝗮𝗻𝗱 𝗲𝘅𝗽𝗹𝗼𝗿𝗲:\n• 🧩 Claude Code — Build, debug & ship AI applications\n• 🎨 Claude Design — Create AI-powered interfaces\n• 🔗 MCP — Connect agents to tools, APIs & data\n• 📚 RAG — Give your AI Agent real knowledge\n• 💡 Real-world AI Agent use cases\n𝗡𝗼 𝗹𝗼𝗻𝗴 𝘁𝗵𝗲𝗼𝗿𝘆. 𝗡𝗼 𝗰𝗼𝗺𝗽𝗹𝗶𝗰𝗮𝘁𝗲𝗱 𝗰𝗼𝗱𝗶𝗻𝗴. 𝗪𝗲 𝗯𝘂𝗶𝗹𝗱 𝗶𝘁 𝗹𝗶𝘃𝗲.\n👨‍🏫 𝗟𝗲𝗱 𝗯𝘆 𝗔𝗯𝗱𝘂𝗹𝗹𝗮𝗵 𝗞𝗵𝗮𝗻 — Microsoft Certified Trainer & Architect, with 50,000+ professionals trained globally.\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗶𝘀 𝗴𝗿𝗼𝘂𝗽 𝗶𝘀 𝗮𝗯𝗼𝘂𝘁:\n⚡ Practical AI Agent learning\n🛠️ Hands-on building\n📦 Templates, resources & workflows\n🤝 Bengaluru AI builder community\n🎯 Live workshops, demos & special sessions\n\n𝗧𝗵𝗶𝘀 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮𝗻𝗼𝘁𝗵𝗲𝗿 𝗔𝗜 𝗴𝗿𝗼𝘂𝗽.\n𝗜𝘁’𝘀 𝗮 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗳𝗼𝗿 𝗽𝗲𝗼𝗽𝗹𝗲 𝘄𝗵𝗼 𝘄𝗮𝗻𝘁 𝘁𝗼 𝗯𝘂𝗶𝗹𝗱.\n\n𝗟𝗲𝘁’𝘀 𝗯𝘂𝗶𝗹𝗱 𝘆𝗼𝘂𝗿 𝗳𝗶𝗿𝘀𝘁 𝗔𝗜 𝗔𝗴𝗲𝗻𝘁 — 𝘁𝗼𝗴𝗲𝘁𝗵𝗲𝗿.",
-    "is_free": true,
-    "price_amount": null,
-    "price_currency": null,
-    "source_event_id": "316381554",
-    "registration_url": "https://www.meetup.com/delhi-ncr-ai-agent-builders-community/events/316381554/",
-    "is_technical": true,
-    "categories": [
-      "Artificial Intelligence & Machine Learning",
-      "Software & Web Development"
-    ],
-    "scraped_at": "2026-09-08T08:18:56.602229Z"
+    "scraped_at": "2026-09-13T09:51:25.591539Z"
   }
 ]
