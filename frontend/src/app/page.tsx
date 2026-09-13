@@ -12,7 +12,7 @@ export default function DiscoverPage() {
   const [error, setError] = useState<string | null>(null);
 
   // Authentication & Saved state
-  const { user, token, isAuthenticated, refreshUser } = useAuth();
+  const { user, token, isAuthenticated, refreshUser, updateUser } = useAuth();
   const [savedIds, setSavedIds] = useState<Set<string>>(new Set());
 
   // Sync saved event IDs with the authenticated user
@@ -50,27 +50,28 @@ export default function DiscoverPage() {
 
         const url = `${apiUrl}/events?${params.toString()}`;
         const response = await fetch(url, { headers });
-
+        
         if (!response.ok) {
-          throw new Error("Failed to fetch events");
+          throw new Error("Failed to load events from server.");
         }
-
+        
         const data = await response.json();
         setEvents(data);
         setError(null);
-      } catch (err) {
-        console.warn("Backend API not reachable, loading static fallback events for demo:", err);
+      } catch (err: any) {
+        console.warn("FastAPI backend not reachable, loading pre-scraped events from fallback JSON...", err);
         try {
           const fallbackRes = await fetch("/fallback_events.json");
-          const fallbackData = await fallbackRes.json();
-          // Since it's a fallback, sort it loosely by a mock score so the UI doesn't look completely random
-          const sortedFallback = fallbackData.map((e: any) => ({ ...e, ranking_score: Math.random() })).sort((a: any, b: any) => b.ranking_score - a.ranking_score);
-          setEvents(sortedFallback);
-          setError(null);
+          if (fallbackRes.ok) {
+            const fallbackData = await fallbackRes.json();
+            setEvents(fallbackData);
+            setError(null);
+            return;
+          }
         } catch (fallbackErr) {
           console.error("Failed to load fallback events:", fallbackErr);
-          setError("Unable to load events. Make sure the EventScout API is running.");
         }
+        setError("Unable to load events. Make sure the EventScout API is running.");
       } finally {
         setLoading(false);
       }
@@ -98,20 +99,37 @@ export default function DiscoverPage() {
         return next;
       });
 
+      // Update user state and local storage immediately
+      const newSavedList = currentlySaved
+        ? (user?.saved_event_ids || []).filter((id) => id !== eventId)
+        : [...(user?.saved_event_ids || []), eventId];
+      updateUser({ saved_event_ids: newSavedList });
+
       try {
-        const res = await fetch(endpoint, {
-          method,
-          headers: {
-            Authorization: `Bearer ${token}`,
-          },
-        });
+        if (!token.startsWith("demo-token-")) {
+          const res = await fetch(endpoint, {
+            method,
+            headers: {
+              Authorization: `Bearer ${token}`,
+            },
+          });
 
-        if (!res.ok) {
-          throw new Error(`Failed to ${currentlySaved ? "unsave" : "save"} event`);
+          if (!res.ok) {
+            throw new Error(`Failed to ${currentlySaved ? "unsave" : "save"} event`);
+          }
         }
-
         refreshUser();
-      } catch (err) {
+      } catch (err: any) {
+        // If network error (offline backend in demo), keep optimistic local update!
+        if (
+          !err.message ||
+          err.message === "Failed to fetch" ||
+          err.message.includes("NetworkError") ||
+          err.name === "TypeError"
+        ) {
+          console.warn("Backend offline, event bookmarked in local storage.");
+          return;
+        }
         console.error("Error toggling save:", err);
         setSavedIds((prev) => {
           const reverted = new Set(prev);
@@ -122,10 +140,11 @@ export default function DiscoverPage() {
           }
           return reverted;
         });
+        updateUser({ saved_event_ids: user?.saved_event_ids || [] });
         throw err;
       }
     },
-    [apiUrl, token, refreshUser]
+    [apiUrl, token, user, refreshUser, updateUser]
   );
 
   // Compute total counts per primary tab

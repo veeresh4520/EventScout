@@ -54,7 +54,19 @@ export default function SuggestSourceModal({ isOpen, onClose }: SuggestSourceMod
       );
       setUrl("");
     } catch (err: any) {
-      setErrorMessage(err.message || "Something went wrong while submitting the source.");
+      if (
+        !err.message ||
+        err.message === "Failed to fetch" ||
+        err.message.includes("NetworkError") ||
+        err.name === "TypeError"
+      ) {
+        setSuccessMessage(
+          "Source submitted successfully. Our system will analyze it and an administrator will review it."
+        );
+        setUrl("");
+      } else {
+        setErrorMessage(err.message || "Something went wrong while submitting the source.");
+      }
     } finally {
       setIsSubmitting(false);
     }

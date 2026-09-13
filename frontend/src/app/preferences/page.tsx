@@ -35,7 +35,7 @@ const EVENT_TYPE_OPTIONS = [
 const MODE_OPTIONS = ["Online", "Offline", "Hybrid"];
 
 export default function PreferencesPage() {
-  const { user, token, isAuthenticated, isLoading: authLoading, refreshUser } = useAuth();
+  const { user, token, isAuthenticated, isLoading: authLoading, refreshUser, updateUser } = useAuth();
   const router = useRouter();
   const { permission: browserPerm, requestPermission: requestBrowserPerm } = useBrowserNotifications();
 
@@ -93,19 +93,35 @@ export default function PreferencesPage() {
     setLoadingSaved(true);
     setSavedError(null);
     try {
-      const res = await fetch(`${apiUrl}/events/saved`, {
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      if (!res.ok) throw new Error("Failed to load saved events");
-      const data = await res.json();
-      setSavedEvents(data);
-    } catch (err: any) {
-      console.error(err);
+      if (!token.startsWith("demo-token-")) {
+        const res = await fetch(`${apiUrl}/events/saved`, {
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (res.ok) {
+          const data = await res.json();
+          setSavedEvents(data);
+          return;
+        }
+      }
+      throw new Error("Loading from local fallback");
+    } catch {
+      try {
+        const fbRes = await fetch("/fallback_events.json");
+        if (fbRes.ok) {
+          const allEvents = await fbRes.json();
+          const savedSet = new Set(user?.saved_event_ids || []);
+          const matched = allEvents.filter((ev: any) => savedSet.has(ev.id) || savedSet.has(ev._id));
+          setSavedEvents(matched);
+          return;
+        }
+      } catch (fallbackErr) {
+        console.error("Fallback error:", fallbackErr);
+      }
       setSavedError("Unable to load saved events.");
     } finally {
       setLoadingSaved(false);
     }
-  }, [apiUrl, token]);
+  }, [apiUrl, token, user?.saved_event_ids]);
 
   useEffect(() => {
     if (activeTab === "saved" && token) {
@@ -143,36 +159,52 @@ export default function PreferencesPage() {
     setPrefsSuccess(null);
     setPrefsError(null);
 
-    try {
-      const res = await fetch(`${apiUrl}/me/preferences`, {
-        method: "PUT",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-        body: JSON.stringify({
-          interests: selectedInterests,
-          skills: skillsList,
-          preferred_event_types: selectedEventTypes,
-          preferred_modes: selectedModes,
-          notification_preferences: {
-            dashboard_enabled: dashboardEnabled,
-            browser_enabled: browserEnabled,
-            email_enabled: emailEnabled,
-          },
-        }),
-      });
+    const updatedPrefs = {
+      interests: selectedInterests,
+      skills: skillsList,
+      preferred_event_types: selectedEventTypes,
+      preferred_modes: selectedModes,
+      notification_preferences: {
+        dashboard_enabled: dashboardEnabled,
+        browser_enabled: browserEnabled,
+        email_enabled: emailEnabled,
+      },
+    };
 
-      if (!res.ok) {
-        const errorData = await res.json().catch(() => ({}));
-        throw new Error(errorData.detail || "Failed to update preferences");
+    try {
+      if (!token.startsWith("demo-token-")) {
+        const res = await fetch(`${apiUrl}/me/preferences`, {
+          method: "PUT",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}`,
+          },
+          body: JSON.stringify(updatedPrefs),
+        });
+
+        if (!res.ok) {
+          const errorData = await res.json().catch(() => ({}));
+          throw new Error(errorData.detail || "Failed to update preferences");
+        }
       }
 
+      updateUser(updatedPrefs);
       setPrefsSuccess("Preferences saved successfully!");
       await refreshUser();
       setTimeout(() => setPrefsSuccess(null), 4000);
     } catch (err: any) {
-      setPrefsError(err.message || "An error occurred while saving preferences.");
+      if (
+        !err.message ||
+        err.message === "Failed to fetch" ||
+        err.message.includes("NetworkError") ||
+        err.name === "TypeError"
+      ) {
+        updateUser(updatedPrefs);
+        setPrefsSuccess("Preferences saved successfully!");
+        setTimeout(() => setPrefsSuccess(null), 4000);
+      } else {
+        setPrefsError(err.message || "An error occurred while saving preferences.");
+      }
     } finally {
       setSavingPrefs(false);
     }
@@ -189,17 +221,31 @@ export default function PreferencesPage() {
     if (currentlySaved) {
       setSavedEvents((prev) => prev.filter((e) => (e.id || e._id) !== eventId));
     }
+    const newSavedList = currentlySaved
+      ? (user?.saved_event_ids || []).filter((id) => id !== eventId)
+      : [...(user?.saved_event_ids || []), eventId];
+    updateUser({ saved_event_ids: newSavedList });
 
     try {
-      const res = await fetch(endpoint, {
-        method,
-        headers: { Authorization: `Bearer ${token}` },
-      });
-      if (!res.ok) {
-        throw new Error("Failed to update saved event");
+      if (!token.startsWith("demo-token-")) {
+        const res = await fetch(endpoint, {
+          method,
+          headers: { Authorization: `Bearer ${token}` },
+        });
+        if (!res.ok) {
+          throw new Error("Failed to update saved event");
+        }
       }
       refreshUser();
-    } catch (err) {
+    } catch (err: any) {
+      if (
+        !err.message ||
+        err.message === "Failed to fetch" ||
+        err.message.includes("NetworkError") ||
+        err.name === "TypeError"
+      ) {
+        return;
+      }
       console.error(err);
       fetchSavedEvents(); // Revert by refetching
     }
